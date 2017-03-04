@@ -1,0 +1,490 @@
+index,id,author,year,year_ini,group,group_desc,complete,cpt_only,word_count,ref_count,PT_inc,OT_inc,ST_inc,pg_number,hpd_STR,h_IS_NUM,hpd,dpw_STR,d_IS_NUM,dpw,duration_STR,dur_IS_NUM,ther_duration,exp_dur,time_MAX,time_50,time_MIN,detailed_time,protocol,name,why,materials,procedure,who,how,where,how_much,tailor,modify,planned,actual,tidy_sum
+1,abdullah2011,abdullah,2011,2011,ctrl,conventional physiotherapy,1,1,81,0,y,,,5,0.75,1,0.75,3,1,3,8 to 11,0,,,,,,,,1,0,0,0,0,1,1,1,0,0,0,1,5
+1,abdullah2011,abdullah,2011,2011,exp,robot assisted therapy,1,0,327,0,y,,,5,0.75,1,0.75,3,1,3,8 to 11,0,,,,,,,,1,1,1,1,1,1,1,1,1,0,1,1,11
+2,ada2003,ada,2003,2003,ctrl,low intensity home exercise,1,0,108,0,,,,2,,0,,3,1,3,4,1,4,28,,,,,,1,1,0,0,0,1,1,1,0,0,1,1,7
+2,ada2003,ada,2003,2003,exp,overground and treadmill walking,1,0,483,1,,,,2,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,1,,1,1,0,1,1,1,1,1,1,0,1,1,10
+3,ada2013,ada,2013,2013,ctrl,no specified physical therapy,1,0,6,0,,,,0,0,1,0,0,1,0,,0,,120,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,1,1
+3,ada2013,ada,2013,2013,exp,four months of walking training,1,0,409,2,,,,2,0.5,1,0.5,3,1,3,16,1,16,120,24,24,24,1,,1,1,0,1,1,1,1,1,1,0,1,1,10
+3,ada2013,ada,2013,2013,exp,two months of walking therapy,1,0,409,2,,,,2,0.5,1,0.5,3,1,3,8,1,8,60,12,12,12,1,,1,1,0,1,1,1,1,1,1,0,1,1,10
+4,aisen/volpe1997/1999,aisen/volpe,1997/1999,1997,ctrl,conventional therapy,1,1,56,0,,,,2,,0,,,0,,,0,,,,,,,,0,0,0,0,0,1,1,0,0,0,0,0,2
+4,aisen/volpe1997/1999,aisen/volpe,1997/1999,1997,exp,robot assisted therapy + conventional therapy,1,0,123,1,,,,2,,0,,,0,,,0,,,,,,,,0,1,1,0,1,1,1,0,0,0,0,0,5
+5,arya2012,arya,2012,2012,ctrl,standard care,1,1,91,2,,,,4,1,1,1,4 to 5,0,,4,1,4,28,20,20,20,1,,1,1,0,0,0,0,1,1,0,0,0,1,5
+5,arya2012,arya,2012,2012,exp,"""meaningful"" task specific therapy",1,0,356,3,,,,3,1,1,1,4 to 5,0,,4,1,4,28,20,20,20,1,,1,1,1,1,1,1,1,1,0,0,0,1,9
+6,bale2008,bale,2008,2008,ctrl,training as usual,1,1,151,0,,,,3,0.83,1,0.83,5,1,5,4,1,4,28,16.67,16.67,16.67,1,,1,1,0,0,1,1,0,1,0,0,1,1,7
+6,bale2008,bale,2008,2008,exp,functional strength training,1,0,142,1,,,,3,0.83,1,0.83,5,1,5,4,1,4,28,16.67,16.67,16.67,1,,1,1,0,1,1,1,0,1,0,0,0,0,6
+7,barbeau2003,barbeau,2003,2003,exp,locomotor training with full weight bearing + CPT,1,0,214,0,y,,,2,,0,,4,1,4,6,1,6,42,,,,,,1,1,1,1,1,1,1,1,1,0,0,1,10
+7,barbeau2003,barbeau,2003,2003,exp,body weight supported treadmill training,1,0,333,3,y,,,2,,0,,4,1,4,6,1,6,42,,,,,,1,1,1,1,1,1,1,1,1,0,0,1,10
+8,blennerhassett2004,blennerhassett,2004,2004,exp,targeted lower limb mobility therapy + usual therapy,1,0,109,0,y,,,2,2,1,2,5,1,5,4,1,4,28,31.2,31.2,31.2,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+8,blennerhassett2004,blennerhassett,2004,2004,exp,targeted upper extremity intervention + usual therapy,1,0,105,0,y,,,2,2,1,2,5,1,5,4,1,4,28,31.8,31.8,31.8,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+9,boake2007,boake,2007,2007,ctrl,conventional therapy,1,1,86,0,,,,4,3,1,3,6,1,6,2,1,2,14,36,36,36,1,,1,1,0,0,1,1,1,1,1,0,0,1,8
+9,boake2007,boake,2007,2007,exp,CIMT,1,0,130,3,,,,4,3,1,3,6,1,6,2,1,2,14,162,106,36,1,,1,1,1,0,1,1,1,1,0,0,1,1,9
+10,bolognini2011,bolognini,2011,2011,ctrl,sham tDCS + CIMT,1,0,339,3,,,,3,4,1,4,,0,,2,1,2,14,184,112,40,1,,1,1,0,1,0,1,0,1,0,0,0,0,5
+10,bolognini2011,bolognini,2011,2011,exp,tDCS + CIMT,1,0,320,4,,,,4,4,1,4,,0,,2,1,2,14,184,112,40,1,,1,1,1,1,0,1,0,1,0,0,0,0,6
+11,brock2011,brock,2011,2011,ctrl,"""task practice"" intervention",1,0,299,0,y,,,3,1,1,1,,0,,2,1,2,14,6,6,6,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+11,brock2011,brock,2011,2011,exp,bobath + task specific practice,1,0,422,2,y,,,3,1,1,1,,0,,2,1,2,14,6,          ,6,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+12,broeren2008,broeren,2008,2008,ctrl,continuation of previous therapy,1,1,56,0,,,,,,0,,,0,,4,1,4,28,,,,,,0,0,0,0,0,1,1,0,0,0,0,0,2
+12,broeren2008,broeren,2008,2008,exp,computer gaming therapy + conventional therapy,1,0,301,0,,,,3,,0,,,0,,4,1,4,28,,,,,,1,1,1,1,0,1,1,1,0,0,0,0,7
+13,brokaw2014,brokaw,2014,2014,ctrl,conventional therapy,1,1,127,0,,,,2,,0,,,0,,4,1,4,30,12,12,12,1,1,1,0,0,1,1,1,1,1,0,0,0,1,7
+13,brokaw2014,brokaw,2014,2014,exp,robot-assisted UE therapy,1,0,374,2,,,,3,0.25,1,0.25,,0,,4,1,4,30,12,12,12,1,,1,1,1,1,1,1,1,1,1,0,0,1,10
+14,brunner2012,brunner,2012,2012,exp,bimanual therapy,1,0,325,0,,,,3,4,1,4,,0,,4,1,4,28,26,26,26,1,,1,1,0,1,1,1,0,1,0,0,1,1,8
+14,brunner2012,brunner,2012,2012,exp,modified CIMT,1,0,325,0,,,,3,4,1,4,,0,,4,1,4,28,106,66,26,1,,1,1,0,1,1,1,0,1,0,0,1,1,8
+15,burgar2011,burgar,2011,2011,exp,robot lo,1,0,1045,4,,,,4,,0,,,0,,3,1,3,21,8.6,8.6,8.6,1,,1,1,1,1,1,1,1,1,1,0,1,1,11
+15,burgar2011,burgar,2011,2011,ctrl,standard care,1,1,330,0,,,,3,,0,,,0,,3,1,3,21,9.4,9.4,9.4,1,,1,1,0,0,1,1,1,1,0,0,1,1,8
+15,burgar2011,burgar,2011,2011,exp,robot hi,1,0,1045,4,,,,4,,0,,,0,,3,1,3,21,15.8,15.8,15.8,1,,1,1,1,1,1,1,1,1,1,0,1,1,11
+16,carmeli2011,carmeli,2011,2011,ctrl,conventional PT and OT,1,1,142,0,y,y,,3,,0,,,0,,3,1,3,21,,,,,,1,0,0,0,0,1,1,1,0,0,1,1,6
+16,carmeli2011,carmeli,2011,2011,exp,handtutor augmented therapy,1,0,270,0,y,y,,2,,0,,,0,,3,1,3,21,,,,,,1,1,1,1,0,1,1,1,0,0,1,1,9
+17,cauraugh2003,cauraugh,2003,2003,ctrl,bilateral arm training,1,0,125,0,,,,2,1.5,1,1.5,,0,,2,1,2,14,6,6,6,1,,1,0,1,1,0,1,0,1,0,0,0,0,5
+17,cauraugh2003,cauraugh,2003,2003,exp,bilateral arm training + 5s stimulation,1,0,301,0,,,,2,,0,,,0,,2,1,2,14,6,6,6,1,,1,1,1,1,0,1,0,1,0,0,0,0,6
+17,cauraugh2003,cauraugh,2003,2003,exp,bilateral arm training + 10s stimulation,1,0,301,0,,,,2,,0,,,0,,2,1,2,14,6,6,6,1,,1,1,1,1,0,1,0,1,0,0,0,0,6
+18,chan2009,chan,2009,2009,ctrl,bilateral OT without FES,1,0,329,0,,y,,3,2.5,1,2.5,,0,,,0,,,20,20,20,,,0,0,1,1,1,1,0,0,0,0,0,0,4
+18,chan2009,chan,2009,2009,exp,bilateral OT with FES,1,0,923,2,,y,,3,2.5,1,2.5,,0,,,0,,,20,20,20,,,0,1,1,1,1,1,0,0,0,0,0,1,6
+19,chen2011,chen,2011,2011,ctrl,conventional therapy,1,1,69,0,y,y,,,,0,,5,1,5,6,1,6,42,20,20,20,1,,0,0,0,1,1,1,1,1,0,0,0,1,6
+19,chen2011,chen,2011,2011,exp,thermal stimulation + conventional therapy,1,0,570,1,y,y,,3,,0,,5,1,5,6,1,6,42,20,20,20,1,,1,1,0,1,1,1,1,1,0,0,0,1,8
+20,cho2013,cho,2013,2013,ctrl,treadmill training + conventional therapy,1,0,392,1,,y,,,,0,,5,1,5,6,1,6,42,33,33,33,1,,1,0,1,0,0,1,1,1,1,0,0,1,7
+20,cho2013,cho,2013,2013,exp,virtual reality walking + conventional therapy,1,0,705,5,,y,,4,,0,,,0,,6,1,6,42,33,33,33,1,,1,1,1,1,0,1,1,1,1,0,0,1,9
+21,conroy2011,conroy,2011,2011,ctrl,intensive conventional arm therapy,1,1,173,1,,,,5,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,0,0,0,0,1,0,1,0,0,0,0,3
+21,conroy2011,conroy,2011,2011,exp,robot assisted therapy without gravity compensation,1,0,352,2,,,,4,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,0,1,0,1,0,0,0,1,7
+21,conroy2011,conroy,2011,2011,exp,robot assisted therapy with gravity compensation,1,0,345,2,,,,4,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,0,1,0,1,0,0,0,1,7
+22,cooke2010,cooke,2010,2010,ctrl,conventional therapy,1,1,200,1,y,,,4,1,1,1,4,1,4,6,1,6,42,9.2,9.2,9.2,1,,1,0,0,0,1,1,0,1,0,0,1,1,6
+22,cooke2010,cooke,2010,2010,exp,CPT+CPT,1,1,299,1,y,,,4,1,1,1,4,1,4,6,1,6,42,23,23,23,1,,1,1,1,1,1,1,0,1,1,0,1,1,10
+22,cooke2010,cooke,2010,2010,exp,CPT+FST,1,0,336,1,y,,,4,1,1,1,4,1,4,6,1,6,42,23.5,23.5,23.5,1,,1,1,1,1,1,1,0,1,1,0,1,1,10
+23,crosbie2012,crosbie,2012,2012,exp,VR mediated UE therapy,1,0,204,2,,,,3,0.5 to 0.75,0,,3,1,3,3,1,3,21,6.75,6.75,6.75,1,,1,1,1,0,1,1,0,1,1,0,1,1,9
+23,crosbie2012,crosbie,2012,2012,ctrl,standard therapy matched to the control group,1,0,104,1,,,,3,,0,,,0,,3,1,3,21,6.75,6.75,6.75,1,,1,0,0,0,1,1,0,0,0,0,0,1,4
+24,da silva cameiro2011,da silva cameiro,2011,2011,exp,VR + conventional therapy,1,0,362,1,y,y,,3,,0,,3,1,3,12,1,12,84,11.88,11.88,11.88,1,,1,1,1,1,0,1,1,0,0,0,1,1,8
+24,da silva cameiro2011,da silva cameiro,2011,2011,ctrl,conventional therapy,1,1,153,0,y,y,,5,,0,,3,1,3,12,1,12,84,,,,,,0,0,0,0,0,0,1,0,0,0,1,1,3
+25,dahl2008,dahl,2008,2008,exp,CIMT,1,0,251,0,y,y,,4,6,1,6,,0,,2,1,2,14,204,132,60,1,,1,1,0,0,1,1,1,1,0,0,1,1,8
+25,dahl2008,dahl,2008,2008,ctrl,traditional therapy,1,1,122,0,y,y,,4,,0,,,0,,2,1,2,14,,,,,,1,0,0,0,0,1,0,0,0,0,1,1,4
+26,daly2005,daly,2005,2005,exp,robot assistance with motor learning,1,0,205,0,,,,4,5,1,5,5,1,5,12,1,12,,,,,,,1,1,1,0,0,0,0,1,1,0,0,1,6
+26,daly2005,daly,2005,2005,exp,functional neuromuscular stimulation with motor learning,1,0,160,0,,,,5,5,1,5,5,1,5,12,1,12,,,,,,,1,1,1,0,0,0,0,1,1,0,0,1,6
+27,danzl2013,danzl,2013,2013,ctrl,robotic gait training with sham tDCS,1,0,357,11,,,,3,,0,,3,1,3,4,1,4,28,,,,,,0,1,1,1,1,1,0,1,0,0,0,1,7
+27,danzl2013,danzl,2013,2013,exp,robotic gait training with tDCS,1,0,370,13,,,,3,,0,,3,1,3,4,1,4,28,,,,,,0,1,1,1,1,1,0,1,0,0,0,1,7
+28,de deigo2013,de deigo,2013,2013,exp,sensory stimulation + functional activity training,1,0,223,0,,,,2,,0,,,0,,8,1,8,56,44,44,44,1,,0,1,0,1,0,1,0,1,1,0,1,0,6
+28,de deigo2013,de deigo,2013,2013,ctrl,traditional therapy,1,1,133,0,,,,2,,0,,,0,,8,1,8,56,16,16,16,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,dean2000,dean,2000,2000,ctrl,upper limb training,1,0,204,3,,,,3,1,1,1,,0,,4,1,4,28,0,0,0,1,,0,1,0,1,1,1,1,1,1,0,1,1,9
+29,dean2000,dean,2000,2000,exp,circuit training,1,0,510,12,,,,2,1,1,1,3,1,3,4,1,4,28,12,12,12,1,,1,1,0,1,1,1,1,1,1,0,1,1,10
+30,dean/ada2010/2010,dean/ada,2010/2010,2010,exp,treadmill walking,1,0,280,1,,,,2,,0,,5,1,5,26,1,26,180,,,,,,0,1,0,0,1,1,0,1,1,0,0,1,6
+30,dean/ada2010/2010,dean/ada,2010/2010,2010,ctrl,overground walking,1,0,219,0,,,,2,,0,,5,1,5,26,1,26,180,,,,,,1,0,0,0,1,1,0,1,1,0,0,1,6
+31,desrosiers2005,desrosiers,2005,2005,exp,cpt + repetition of unilateral and symmetrical tasks,1,0,374,2,y,y,,4,0.75,1,0.75,5,1,5,5,1,5,35,15,15,15,1,,0,1,0,1,1,1,1,1,0,0,0,1,7
+31,desrosiers2005,desrosiers,2005,2005,ctrl,CPT dosage matched to experimental group,1,1,290,0,y,y,,5,0.75,1,0.75,5,1,5,5,1,5,35,15,15,15,1,,0,1,0,0,1,1,1,1,0,0,0,1,6
+32,di lauro2003,di lauro,2003,2003,ctrl,conventional therapy,1,1,140,0,,,,2,0.75,1,0.75,,0,,2,1,2,14,10.5,10.5,10.5,1,,1,0,0,0,0,1,1,1,0,0,0,0,4
+32,di lauro2003,di lauro,2003,2003,exp,CPT + CPT,1,1,253,2,,,,2,2,1,2,,0,,2,1,2,14,28,28,28,1,1,1,1,0,0,0,1,1,1,0,0,0,0,5
+33,dias2007,dias,2007,2007,exp,bodyweight supported treadmill training,1,0,266,3,,,,2,0.67,1,0.67,5,1,5,5,1,5,35,16.67,16.67,16.67,1,,0,1,1,1,1,1,0,1,0,0,0,0,6
+33,dias2007,dias,2007,2007,ctrl,conventional therapy using the bobath method,1,1,61,1,,,,2,0.67,1,0.67,5,1,5,5,1,5,35,16.67,16.67,16.67,1,,1,0,0,0,1,1,0,1,0,0,0,0,4
+34,dobkin2010,dobkin,2010,2010,ctrl,conventional training,1,1,31,0,,,,4,,0,,,0,,08 or less,0,,42.8,,,,,,1,0,0,0,1,1,0,0,0,0,0,0,3
+34,dobkin2010,dobkin,2010,2010,exp,conventional gait training plus augmented feedback,1,0,144,0,y,,,4,,0,,,0,,08 or less,0,,40.4,,,,,,1,1,0,1,1,1,0,0,1,0,1,0,7
+35,donaldson2009,donaldson,2009,2009,ctrl,conventional therapy,1,1,219,3,y,,,3,1,1,1,4,1,4,6,1,6,42,2.81,2.81,2.81,3,,1,1,0,1,1,1,0,1,1,0,1,1,9
+35,donaldson2009,donaldson,2009,2009,exp,CPT + CPT,1,1,244,3,y,,,3,1,1,1,4,1,4,6,1,6,42,13.8,13.8,13.8,3,,1,1,0,1,1,1,0,1,1,0,1,1,9
+35,donaldson2009,donaldson,2009,2009,exp,CPT + FST,1,0,382,1,y,,,3,1,1,1,4,1,4,6,1,6,42,17.7,17.7,17.7,3,,1,1,0,1,1,1,0,1,1,0,1,1,9
+36,dromerick2000,dromerick,2000,2000,ctrl,standard care,1,1,124,0,,y,,3,2,1,2,5,1,5,2,1,2,14,20,20,20,1,,1,0,0,0,1,1,0,1,0,0,0,1,5
+36,dromerick2000,dromerick,2000,2000,exp,CIMT,1,0,185,0,,y,,3,6,1,6,,0,,2,1,2,14,104,62,20,1,,1,1,0,0,1,1,0,1,0,0,0,1,6
+37,dromerick2009,dromerick,2009,2009,ctrl,traditional UE therapy,1,1,182,1,,y,,2,2,1,2,5,1,5,2,1,2,14,20,20,20,3,1,1,0,0,0,1,1,1,1,0,0,0,1,6
+37,dromerick2009,dromerick,2009,2009,exp,lo cimt,1,0,271,1,,y,,2,,0,,5,1,5,2,1,2,14,70,50,30,3,,1,0,0,0,1,1,1,1,0,0,0,1,6
+37,dromerick2009,dromerick,2009,2009,exp,hi cimt,1,0,269,1,,y,,2,,0,,5,1,5,2,1,2,14,130.8,80.4,30,3,,1,0,0,0,1,1,1,1,0,0,0,1,6
+38,duncan1998,duncan,1998,1998,exp,home-based exercise and rehab,1,0,473,1,,,,4,1.5,1,1.5,3,1,3,8,1,8,56,36,36,36,1,,1,1,1,1,1,1,1,1,1,0,1,1,11
+38,duncan1998,duncan,1998,1998,ctrl,usual care,1,1,90,0,,,,4,,0,,3,1,3,8,1,8,56,,,,1,,1,0,0,0,0,1,0,0,0,0,1,1,4
+39,duncan2003,duncan,2003,2003,ctrl,standard care,1,1,46,0,,,,3,,0,,,0,,12 to 16,0,,84,28.65,28.65,28.65,3,,1,0,0,0,0,0,0,0,0,0,1,1,3
+39,duncan2003,duncan,2003,2003,exp,home exercise program,1,0,511,0,,,,3,1.5,1,1.5,,0,,12 to 16,0,,84,50.66,50.66,50.66,3,,1,1,0,1,1,1,1,1,1,0,0,1,9
+40,duncan2011,duncan,2011,2011,exp,early locomotor,1,0,179,1,,,,3,1.5,1,1.5,3,1,3,12 to 16,0,,98,54,54,54,3,1,1,1,1,0,1,1,0,1,0,0,0,0,6
+40,duncan2011,duncan,2011,2011,ctrl,late locomotor (pre-crossover),1,0,179,1,,,,3,1.5,1,1.5,3,1,3,12 to 16,0,,98,22.5,22.5,22.5,3,1,1,1,1,0,1,1,0,1,0,0,0,0,6
+40,duncan2011,duncan,2011,2011,exp,home exercise program,1,0,78,1,,,,3,1.5,1,1.5,3,1,3,12 to 16,0,,98,54,54,54,3,1,1,0,0,0,1,1,0,1,0,0,0,0,4
+41,eich2004,eich,2004,2004,exp,treadmill walking + conventional therapy,1,0,336,0,y,,,4,1,1,1,,0,,6,1,6,42,30,30,30,3,,1,1,0,0,0,1,0,1,0,0,0,1,5
+41,eich2004,eich,2004,2004,ctrl,conventional therapy dosage matched to exp group,1,1,160,0,y,,,4,1,1,1,,0,,6,1,6,42,30,30,30,3,,1,0,0,0,0,1,0,1,0,0,0,1,4
+42,fang2003,fang,2003,2003,exp,additional early physiotherapy,1,0,140,0,,,,3,0.75,1,0.75,5,1,5,4,1,4,30,15,15,15,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+42,fang2003,fang,2003,2003,ctrl,"not clear described as CPT and ""no professional rehabilitation""",1,1,63,0,,,,3,0.75,1,0.75,5,1,5,4,1,4,30,11.25,11.25,11.25,1,,1,0,0,0,1,1,1,1,0,0,0,1,6
+43,feys1998,feys,1998,1998,ctrl,standard care,1,1,109,0,,,,3,0.5,1,0.5,5,1,5,6,1,6,42,15,15,15,2,,0,0,0,0,0,1,0,1,0,0,0,1,3
+43,feys1998,feys,1998,1998,exp,SC + sensory therapy,1,0,276,0,,,,3,0.5,1,0.5,5,1,5,6,1,6,42,30,30,30,2,,0,1,1,1,0,1,0,1,0,0,0,1,6
+44,fisher2011,fisher,2011,2011,exp,robot assited gait therapy,1,0,565,2,y,,,3,1,1,1,,0,,6 to 8,0,,56,24,24,24,2,,1,1,1,0,0,1,1,1,0,0,0,1,7
+44,fisher2011,fisher,2011,2011,ctrl,CPT,1,1,256,1,y,,,3,1,1,1,,0,,6 to 8,0,,56,24,24,24,2,,0,0,0,0,1,1,1,1,0,0,0,1,5
+45,franceshini2009,franceshini,2009,2009,exp,bodyweight supported treadmill training + CPT,1,0,244,0,,,,3,1,1,1,5,1,5,4,1,4,28,20,20,20,2,,1,1,1,0,1,1,0,1,0,0,0,1,7
+45,franceshini2009,franceshini,2009,2009,ctrl,CPT + overground walking,1,0,139,0,,,,3,1,1,1,5,1,5,4,1,4,28,20,20,20,2,,1,0,0,0,1,0,1,1,0,0,0,1,5
+46,fuzaro2011,fuzaro,2011,2011,exp,mCIMT,1,0,374,4,,,,4,,0,,5,1,5,4,1,4,28,39.67,28.17,16.67,1,,1,1,1,0,0,1,0,1,0,0,1,1,7
+46,fuzaro2011,fuzaro,2011,2011,exp,modified forced use therapy,1,0,187,0,,,,4,,0,,5,1,5,4,1,4,28,23,11.5,0,1,,1,1,0,0,1,1,0,1,0,0,1,1,7
+47,galvin2011,galvin,2011,2011,ctrl,routine therapy with no formal input from family members,1,0,336,1,y,,,2,,0,,,0,,8,1,8,56,,,,,,1,0,0,0,1,1,0,1,1,0,1,1,7
+47,galvin2011,galvin,2011,2011,exp,routine therapy + additional family mediated therapy,1,0,135,0,y,,,2,,0,,,0,,8,1,8,56,,,,,,1,1,0,0,1,1,0,0,0,0,0,1,5
+48,GAPS Group2004,GAPS Group,2004,2004,ctrl,conventional therapy,1,1,186,3,y,,,3,1 to 1.33,0,,5,1,5,5,1,5,28,11.66666667,11.66666667,11.66666667,1,1,1,0,0,0,0,0,0,1,0,0,0,1,3
+48,GAPS Group2004,GAPS Group,2004,2004,exp,CPT + CPT,1,1,186,3,y,,,3,0.5 to 0.67,0,,5,1,5,5,1,5,28,23.33333333,23.33333333,23.33333333,1,1,1,1,0,0,0,1,0,1,0,0,0,1,5
+49,gelber1995,gelber,1995,1995,ctrl,traditional therapy,1,0,226,3,,,,3,,0,,,0,,04 or less,0,,25.2,,,,,,1,1,0,0,1,1,0,0,0,0,1,1,6
+49,gelber1995,gelber,1995,1995,exp,neurodevelopmental therapy,1,0,221,4,,,,3,,0,,,0,,04 or less,0,,27.3,,,,,,1,1,0,0,1,1,0,0,0,0,1,1,6
+50,gilbertson2000,gilbertson,2000,2000,ctrl,conventional inpatient rehab,1,1,38,0,,,,1,,0,,,0,,6,1,6,42,,,,,,1,0,0,0,0,0,0,0,0,0,0,1,2
+50,gilbertson2000,gilbertson,2000,2000,exp,domiciliary occupational therapy,1,0,81,1,,,,1,,0,,,0,,6,1,6,42,,,,,,1,1,0,0,0,1,0,1,0,0,0,1,5
+51,gladman/gladman1993/1994,gladman/gladman,1993/1994,1993,exp,domiciliary occupational therapy,1,0,106,0,,,,2,,0,,,0,,26 to 52,0,,180,,,,,1,1,1,0,0,1,1,0,0,0,0,0,0,4
+51,gladman/gladman1993/1994,gladman/gladman,1993/1994,1993,ctrl,traditional therapy,1,1,91,0,,,,2,,0,,,0,,26 to 52,0,,180,,,,,1,1,0,0,0,0,1,0,0,0,0,0,0,2
+52,globas2012,globas,2012,2012,exp,high intensity treadmill training,1,0,388,5,,,,4,,0,,3,1,3,13,1,13,90,19.5,19.5,19.5,2,,1,1,0,0,1,1,1,1,1,0,0,1,8
+52,globas2012,globas,2012,2012,ctrl,conventional therapy,1,1,90,0,,,,4,1,1,1,,0,,13,1,13,90,,,,,,1,0,0,0,0,0,1,1,0,0,0,1,4
+53,green2002,green,2002,2002,exp,community physical therapy,1,0,122,2,,,,2,,0,,,0,,13,1,13,90,,,,,,1,1,0,0,1,1,0,1,0,0,0,1,6
+53,green2002,green,2002,2002,ctrl,no treatment?,1,0,3,0,,,,2,,0,,,0,,13,1,13,90,,,,,,0,0,0,0,0,0,0,0,0,0,0,1,1
+54,han2013,han,2013,2013,ctrl,regular rehabilitation therapy and medical treatment,1,0,97,0,,,,2,1,1,1,5,1,5,6,1,6,42,30,30,30,1,,0,1,0,0,0,0,0,1,0,0,0,1,3
+54,han2013,han,2013,2013,exp,CPT at increased intensity,1,0,97,0,,,,2,2,1,2,5,1,5,6,1,6,42,60,60,60,1,,0,1,0,0,0,0,0,1,0,0,0,1,3
+54,han2013,han,2013,2013,exp,CPT at increased intensity,1,0,97,0,,,,2,3,1,3,5,1,5,6,1,6,42,90,90,90,1,,0,1,0,0,0,0,0,1,0,0,0,1,3
+55,harris2009,harris,2009,2009,exp,supplementary arm and hand therapy plus usual care,1,0,287,0,y,y,,3,1,1,1,6,1,6,4,1,4,28,43.2,43.2,43.2,2,1,1,1,0,0,0,1,0,1,0,0,1,1,6
+55,harris2009,harris,2009,2009,ctrl,usual care,1,1,75,0,y,y,,4,1,1,1,6,1,6,4,1,4,28,31.2,31.2,31.2,2,1,0,0,0,0,0,0,0,1,0,0,0,1,2
+56,hayner2010,hayner,2010,2010,exp,CIMT,1,0,416,1,,,,4,6,1,6,,0,,,0,,10,60,60,60,1,,1,1,1,0,1,1,1,1,0,0,0,1,8
+56,hayner2010,hayner,2010,2010,exp,dosage matched bilateral therapy,1,0,347,1,,,,4,6,1,6,,0,,,0,,10,60,60,60,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+57,hesse2005,hesse,2005,2005,exp,robotic arm trainer,1,0,325,1,y,y,,3,,0,,,0,,6,1,6,42,,,,1,,1,1,1,1,0,1,0,1,0,0,0,1,7
+57,hesse2005,hesse,2005,2005,exp,electrical stimulation of wrist flexor/extensors,1,0,309,0,y,y,,3,,0,,,0,,6,1,6,42,,,,1,,1,1,1,1,0,1,0,1,0,0,0,1,7
+58,hesse2011,hesse,2011,2011,ctrl,continuous low intensity,1,0,71,1,,,,4,0.5 to 0.75,0,,2,1,2,52,1,52,365,65,65,65,1,,1,1,0,0,1,1,0,1,0,0,1,1,7
+58,hesse2011,hesse,2011,2011,exp,intermittent high intensity,1,0,253,0,,,,4,0.5 to 0.75,0,,4,1,4,52,1,52,365,120,120,120,1,,1,1,0,0,1,1,1,1,0,0,0,1,7
+59,hidler2009,hidler,2009,2009,exp,lokomat gait training,1,0,652,0,,,,4,1.5,1,1.5,3,1,3,8 to 10,0,,63,24,24,24,3,,1,1,0,1,0,1,0,1,1,0,1,1,8
+59,hidler2009,hidler,2009,2009,ctrl,conventional gait training,1,1,143,0,,,,3,1.5,1,1.5,3,1,3,8 to 10,0,,63,24,24,24,3,,1,1,0,0,1,1,0,1,1,0,1,1,8
+60,hornby2008,hornby,2008,2008,exp,robot assisted gait training,1,0,203,3,,,,3,0.5,1,0.5,,0,,,0,,,6,6,6,3,,1,1,0,0,0,1,0,1,0,0,0,1,5
+60,hornby2008,hornby,2008,2008,ctrl,"usual care, therapist assisted gait training",1,1,262,1,,,,3,0.5,1,0.5,,0,,,0,,,6,6,6,3,,1,1,0,0,0,1,0,1,0,0,0,1,5
+61,housman2009,housman,2009,2009,exp,T-WREX assisted UE therapy,1,0,407,0,,,,3,1,1,1,3,1,3,8 to 9,0,,63,24,24,24,2,,1,1,1,1,1,1,0,1,1,0,0,1,9
+61,housman2009,housman,2009,2009,ctrl,conventional physical and occupational therapy,1,1,515,5,,,,4,1,1,1,3,1,3,8 to 9,0,,63,24,24,24,2,,1,0,0,1,1,1,0,1,0,0,0,1,6
+62,hsieh2011,hsieh,2011,2011,ctrl,conventional physical and occupational therapy,1,1,154,1,,,,5,1.5 to 1.75,0,,5,1,5,4,1,4,28,30,30,30,1,1,1,0,0,0,1,1,0,1,0,0,0,1,5
+62,hsieh2011,hsieh,2011,2011,exp,low dose robot assisted therapy,1,0,323,4,,,,5,1.5 to 1.75,0,,5,1,5,4,1,4,28,30,30,30,4,,1,1,1,0,1,1,0,1,0,0,0,1,7
+62,hsieh2011,hsieh,2011,2011,exp,high dose robot assisted therapy,1,0,407,1,,,,4,1.5 to 1.75,0,,5,1,5,4,1,4,28,30,30,30,4,,1,1,1,0,1,1,0,1,0,0,0,1,7
+63,hsieh2012,hsieh,2012,2012,ctrl,conventional physical and occupational therapy,1,1,50,0,,,,4,1.5 to 1.75,0,,5,1,5,4,1,4,28,30,30,30,1,,1,0,0,0,0,1,0,1,0,0,0,1,4
+63,hsieh2012,hsieh,2012,2012,exp,low dose robot assisted therapy,1,0,209,2,,,,3,1.5 to 1.75,0,,5,1,5,4,1,4,28,30,30,30,4,,1,1,1,0,0,1,0,1,0,0,0,1,6
+63,hsieh2012,hsieh,2012,2012,exp,high dose robot assisted therapy,1,0,209,2,,,,3,1.5 to 1.75,0,,5,1,5,4,1,4,28,30,30,30,4,,1,1,1,0,0,1,0,1,0,0,0,1,6
+64,hui chan2009,hui chan,2009,2009,ctrl,no treatment?,1,0,6,0,,,,2,,0,,,0,,4,1,4,28,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+64,hui chan2009,hui chan,2009,2009,exp,transcutaneous electrical stim only,1,0,68,0,,,,2,1,1,1,5,1,5,4,1,4,28,0,0,0,1,,1,1,0,1,1,1,0,1,0,0,1,1,8
+64,hui chan2009,hui chan,2009,2009,exp,placebo stim + task specific training,1,0,57,0,,,,2,2,1,2,5,1,5,4,1,4,28,20,20,20,1,,1,1,0,1,1,1,0,1,0,0,1,1,8
+64,hui chan2009,hui chan,2009,2009,exp,STIM + task specific training,1,0,112,0,,,,2,2,1,2,5,1,5,4,1,4,28,20,20,20,1,,1,1,0,1,1,1,0,1,0,0,1,1,8
+65,hunter2011,hunter,2011,2011,ctrl,standard care,1,1,87,3,,,,4,,0,,,0,,2,1,2,14,3.866666667,3.866666667,3.866666667,3,,1,0,0,0,1,1,0,0,0,0,0,1,4
+65,hunter2011,hunter,2011,2011,exp,SC + 30 min/day,1,0,528,4,,,,4,,0,,,0,,2,1,2,14,5.395,5.395,5.395,3,,1,1,0,1,1,1,1,1,1,0,0,1,9
+65,hunter2011,hunter,2011,2011,exp,SC + 60 min/day,1,0,528,4,,,,4,,0,,,0,,2,1,2,14,8.701666667,8.701666667,8.701666667,3,,1,1,0,1,1,1,1,1,1,0,0,1,9
+65,hunter2011,hunter,2011,2011,exp,SC + 120 min/day,1,0,528,4,,,,4,,0,,,0,,2,1,2,14,15.36,15.36,15.36,3,,1,1,0,1,1,1,1,1,1,0,0,1,9
+66,huseman2007,huseman,2007,2007,ctrl,conventional physiotherapy,1,1,129,0,y,,,3,1,1,1,,0,,4 to 5,0,,28,20,20,20,1,,1,0,0,0,0,1,0,1,1,0,0,1,5
+66,huseman2007,huseman,2007,2007,exp,lokomat gait training,1,0,231,3,y,,,3,1,1,1,,0,,4 to 5,0,,28,20,20,20,1,,1,1,1,1,0,1,0,1,0,0,0,1,7
+67,in2012,in,2012,2012,ctrl,convention physiotherapy + sham mirror box,1,0,334,0,,,,2,,0,,5,1,5,4,1,4,28,,,,,1,1,0,0,1,0,1,0,1,1,0,0,1,6
+67,in2012,in,2012,2012,exp,mirror box therapy + conventional PT,1,0,311,0,,,,2,,0,,5,1,5,4,1,4,28,,,,,1,1,1,0,1,0,1,0,1,1,0,0,1,7
+68,indredavik1991,indredavik,1991,1991,ctrl,treatment in a general medical ward,1,0,166,0,,,,3,,0,,,0,,6,1,6,42,,,,,,0,1,0,0,1,1,1,0,0,0,0,0,4
+68,indredavik1991,indredavik,1991,1991,exp,treatment in a specialized stroke unit,1,0,52,0,,,,3,,0,,,0,,6,1,6,42,,,,,,0,1,0,1,1,1,1,1,0,0,0,0,6
+69,janssen2008,janssen,2008,2008,ctrl,cycling exercise,1,0,370,0,,,,2,,0,,2,1,2,6,1,6,42,6,6,6,3,,1,1,1,1,1,1,0,1,1,0,0,1,9
+69,janssen2008,janssen,2008,2008,exp,electrical stimulation plus cycling,1,0,370,0,,,,2,,0,,2,1,2,6,1,6,42,6,6,6,3,,1,1,1,1,1,1,0,1,1,0,0,1,9
+70,jin2012,jin,2012,2012,exp,progressive cycling training with lower limb weights,1,0,170,2,,,,3,0.67,1,0.67,5,1,5,8,1,8,56,46.8,46.8,46.8,1,,1,1,0,0,0,1,0,1,1,0,0,1,6
+70,jin2012,jin,2012,2012,ctrl,low-intensity over ground walking,1,0,97,0,,,,3,0.67,1,0.67,5,1,5,8,1,8,56,46.8,46.8,46.8,1,,1,0,0,0,0,1,0,1,1,0,0,1,5
+71,jin2013,jin,2013,2013,exp,progressive cycling intervention,1,0,130,1,,,,3,0.67,1,0.67,5,1,5,12,1,12,84,40.2,40.2,40.2,1,,1,1,1,0,0,1,0,1,1,0,0,1,7
+71,jin2013,jin,2013,2013,ctrl,stretching with overground walking,1,0,62,0,,,,3,0.67,1,0.67,5,1,5,12,1,12,84,4.8,4.8,4.8,1,,1,0,0,0,0,1,0,1,0,0,0,1,4
+72,johannsen2010,johannsen,2010,2010,exp,bilateral arm training with auditory cuing,1,0,160,1,,,,4,0.75,1,0.75,,0,,5,1,5,42,7.5,7.5,7.5,1,,1,1,1,0,1,1,0,1,0,0,0,1,7
+72,johannsen2010,johannsen,2010,2010,exp,bilateral leg training with auditory cuing,1,0,317,1,,,,3,0.75,1,0.75,,0,,5,1,5,42,7.5,7.5,7.5,1,,1,1,1,0,1,1,0,1,0,0,0,1,7
+73,jongbloed1989,jongbloed,1989,1989,ctrl,traditional functional task practice,1,0,163,0,,,,6,0.67,1,0.67,5,1,5,8,1,8,56,,,,,,1,1,0,1,0,1,1,1,0,0,0,0,6
+73,jongbloed1989,jongbloed,1989,1989,exp,sensorimotor therapy,1,0,163,0,,,,6,0.67,1,0.67,5,1,5,8,1,8,56,,,,,,1,1,1,1,0,1,1,1,0,0,0,0,7
+74,jonsdottir2010,jonsdottir,2010,2010,exp,task oriented biofeedback with a progressive schedule,1,0,363,1,y,,,3,0.75,1,0.75,3,1,3,7,1,7,49,15.75,15.75,15.75,1,,1,1,1,1,1,1,1,1,0,0,0,1,9
+74,jonsdottir2010,jonsdottir,2010,2010,ctrl,conventional physiotherapy,1,1,110,0,y,,,4,0.75,1,0.75,3,1,3,7,1,7,49,15.75,15.75,15.75,1,,1,0,0,0,0,1,1,1,0,0,0,1,5
+75,jung2012,jung,2012,2012,ctrl,treadmill training,1,0,37,0,,,,2,0.5,1,0.5,5,1,5,3,1,3,21,7.5,7.5,7.5,1,,1,1,0,0,1,1,0,1,0,0,0,0,5
+75,jung2012,jung,2012,2012,exp,VR treadmill training,1,0,146,0,,,,2,0.5,1,0.5,5,1,5,3,1,3,21,7.5,7.5,7.5,1,,1,1,1,0,1,1,0,1,1,0,0,0,7
+76,kahn2006,kahn,2006,2006,ctrl,dosage matched unassisted reaching,1,0,149,0,,,,5,0.75,1,0.75,,0,,8,1,8,56,18,18,18,4,,1,0,0,1,0,1,0,1,0,0,0,0,4
+76,kahn2006,kahn,2006,2006,exp,robot assisted reaching,1,0,662,8,,,,4,0.75,1,0.75,,0,,8,1,8,56,18,18,18,4,,1,1,1,1,0,1,0,1,1,0,0,0,7
+77,kang2012,kang,2012,2012,ctrl,CPT + stretching,1,0,134,0,y,,,4,,0,,,0,,4,1,4,28,,,,,,1,0,0,0,1,1,0,1,0,0,0,1,5
+77,kang2012,kang,2012,2012,exp,CPT + treadmill training,1,0,126,0,y,,,4,0.5,1,0.5,3,1,3,4,1,4,28,,,,,,1,1,1,0,1,1,0,1,1,0,0,1,8
+77,kang2012,kang,2012,2012,exp,CPT + treadmill training with optic flow information,1,0,299,2,y,,,3,0.5,1,0.5,3,1,3,4,1,4,28,,,,,,1,1,1,0,1,1,0,1,1,0,0,1,8
+78,katz leurer2006,katz leurer,2006,2006,ctrl,CPT,1,1,39,0,,,,4,,0,,,0,,5,1,5,21,,,,,,1,0,0,0,0,1,0,0,0,0,0,1,3
+78,katz leurer2006,katz leurer,2006,2006,exp,CPT + cycling ergometry,1,0,215,0,,,,3,,0,,,0,,5,1,5,21,,,,,,1,1,1,0,1,1,0,1,1,0,0,1,8
+79,khan2011,khan,2011,2011,ctrl,conventional physical and occupational therapy,1,1,178,0,y,y,,3,,0,,,0,,08 or less,0,,34.2,,,,1,,1,1,0,0,0,1,0,1,0,0,0,1,5
+79,khan2011,khan,2011,2011,exp,modified CIMT,1,0,216,0,y,y,,3,,0,,,0,,08 or less,0,,32.5,,,,1,,1,1,1,0,0,1,0,1,0,0,0,1,6
+79,khan2011,khan,2011,2011,exp,therapeutic climbing exercises,1,0,98,0,y,y,,3,,0,,,0,,08 or less,0,,30.1,,,,1,,1,1,0,0,0,1,0,1,0,0,0,1,5
+80,kihoon2012,kihoon,2012,2012,ctrl,CPT,1,1,147,0,,,,2,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,1,,0,0,0,0,0,1,0,1,0,0,0,1,3
+80,kihoon2012,kihoon,2012,2012,exp,VR training using the IREX system,1,0,255,0,,,,2,1,1,1,5,1,5,4,1,4,28,26,26,26,1,,1,1,1,0,0,1,0,,0,0,0,1,5
+81,kim2009,kim,2009,2009,ctrl,CPT,1,1,225,1,y,,,4,0.67,1,0.67,4,1,4,4,1,4,28,10.72,10.72,10.72,1,,1,1,0,0,0,1,0,1,1,0,0,1,6
+81,kim2009,kim,2009,2009,exp,CPT + locomotor VR training,1,0,541,1,y,,,4,1.17,1,1.17,4,1,4,4,1,4,28,18.7,18.7,18.7,1,,1,1,1,0,0,1,0,1,1,0,0,1,7
+82,kim2012,kim,2012,2012,ctrl,no treatment?,1,0,24,0,,,,2,0.75,1,0.75,3,1,3,3,1,3,21,0,0,0,1,,0,0,0,0,0,0,0,1,0,0,0,1,2
+82,kim2012,kim,2012,2012,exp,therapy games using nintendo wii,1,0,334,0,,,,2,1.25,1,1.25,3,1,3,3,1,3,21,4.5,4.5,4.5,1,,0,1,1,1,0,1,0,1,0,0,0,1,6
+83,kiper2011,kiper,2011,2011,ctrl,CPT + CPT,1,1,121,1,,,,3,2,1,2,5,1,5,4,1,4,28,40,40,40,1,,1,0,0,0,0,0,0,1,1,0,0,1,4
+83,kiper2011,kiper,2011,2011,exp,CPT + reinforcing feedback in a VE,1,0,179,1,,,,3,2,1,2,5,1,5,4,1,4,28,40,40,40,1,,1,1,1,0,1,1,0,1,1,0,0,1,8
+84,kuys2011,kuys,2011,2011,ctrl,conventional therapy,1,1,56,0,,,,5,1,1,1,,0,,4,1,4,42,30,30,30,2,,1,0,0,0,1,1,0,0,0,0,0,1,4
+84,kuys2011,kuys,2011,2011,exp,CPT + HI treadmill,1,0,241,4,,,,5,1.5,1,1.5,3,1,3,6,1,6,42,36.3,36.3,36.3,2,,1,1,1,0,1,1,0,1,1,0,0,1,8
+85,kwakkel/kwakkel1999/2002,kwakkel/kwakkel,1999/2002,1999,ctrl,conventional therapy,1,1,389,0,,,,2,0.5,1,0.5,5,1,5,20,1,20,140,73.5,73.5,73.5,2,1,0,1,0,0,1,1,0,1,0,0,1,1,6
+85,kwakkel/kwakkel1999/2002,kwakkel/kwakkel,1999/2002,1999,exp,arm intensive therapy + CPT,1,0,379,0,,,,2,0.5,1,0.5,5,1,5,20,1,20,140,114.5,114.5,114.5,2,1,0,1,0,0,1,1,0,1,0,0,1,1,6
+85,kwakkel/kwakkel1999/2002,kwakkel/kwakkel,1999/2002,1999,exp,leg intensive therapy + CPT,1,0,379,0,,,,2,0.5,1,0.5,5,1,5,20,1,20,140,117.17,117.17,117.17,2,1,0,1,0,0,1,1,0,1,0,0,1,1,6
+86,kwon2012,kwon,2012,2012,ctrl,CPT,1,1,40,0,,,,3,1.17,1,1.17,5,1,5,4,1,4,28,23.3,23.3,23.3,1,,0,0,0,0,1,1,0,1,0,0,0,0,3
+86,kwon2012,kwon,2012,2012,exp,CPT + VR training,1,0,155,1,,,,2,1.67,1,1.67,5,1,5,4,1,4,28,33.3,33.3,33.3,1,,0,1,1,1,1,1,0,1,0,0,0,0,6
+87,langhammer2007,langhammer,2007,2007,ctrl,regular exercise therapy,1,1,202,0,y,,,3,1,1,1,,0,,,0,,22,,,,1,,0,0,0,0,1,1,0,1,0,0,1,1,5
+87,langhammer2007,langhammer,2007,2007,exp,intersive exercise therapy,1,0,408,0,y,,,3,1,1,1,,0,,,0,,16,,,,1,,0,1,0,1,1,1,0,1,1,0,1,1,8
+88,langhammer2010,langhammer,2010,2010,ctrl,treadmill therapy + CPT,1,0,320,0,,,,4,3,1,3,5,1,5,2.5,1,2.5,15.9,35.85,35.85,35.85,3,,1,0,0,0,1,1,0,1,0,0,0,1,5
+88,langhammer2010,langhammer,2010,2010,exp,outdoor walking,1,0,208,0,,,,4,3,1,3,5,1,5,2.5,1,2.5,16.9,41.5,41.5,41.5,3,,1,0,1,0,0,1,0,1,1,0,0,1,6
+89,langhammer2000,langhammer,2000,2000,exp,motor relearning programme,1,0,332,3,,y,y,3,0.67,1,0.67,5,1,5,3,1,3,21,,,,,1,1,1,0,0,1,1,0,1,0,0,1,1,7
+89,langhammer2000,langhammer,2000,2000,exp,bobath therapy programme,1,0,332,3,,y,y,3,0.67,1,0.67,5,1,5,4.857,1,4.86,34,,,,,1,1,1,0,0,1,1,0,1,0,0,1,1,7
+90,lau2011,lau,2011,2011,ctrl,gait training on the treadmill at steady speed,1,0,116,0,,,,2,2,1,2,,0,,2,1,2,14,20,20,20,1,,1,0,0,0,1,1,0,1,0,0,0,1,5
+90,lau2011,lau,2011,2011,exp,progressive increases in treadmill speed within a session,1,0,199,0,,,,2,2,1,2,,0,,2,1,2,14,20,20,20,1,,1,1,0,0,1,1,0,1,1,0,0,1,7
+91,laufer2001,laufer,2001,2001,ctrl,CPT with overground walking,1,0,98,1,,y,y,3,,0,,,0,,3,1,3,21,,,,,,1,0,0,0,0,0,1,0,0,0,0,1,3
+91,laufer2001,laufer,2001,2001,exp,CPT with treadmill training,1,0,226,1,,y,y,3,,0,,5,1,5,3,1,3,21,,,,,,1,1,1,0,0,1,0,1,0,0,0,1,6
+92,laver2012,laver,2012,2012,ctrl,CPT,1,1,141,0,,,,2,0.42,1,0.42,5,1,5,02 or less,0,,14.95,4.2,4.2,4.2,1,,1,1,0,1,1,1,1,1,0,0,1,1,9
+92,laver2012,laver,2012,2012,exp,balance training using Wii fit,1,0,227,0,,,,2,0.42,1,0.42,5,1,5,02 or less,0,,12.3,4.2,4.2,4.2,1,,1,1,0,0,1,1,1,1,0,0,1,1,8
+93,lee2008,lee,2008,2008,ctrl,sham cycling + sham PRT,1,0,363,2,,,,2,1,1,1,3,1,3,10 to 12,0,,77,0,0,0,1,,1,0,1,1,0,1,0,1,1,0,0,1,7
+93,lee2008,lee,2008,2008,exp,cycling + sham progressive resistence training,1,0,363,2,,,,3,1,1,1,3,1,3,10 to 12,0,,77,15,15,15,1,,1,1,1,1,0,1,0,1,1,0,0,1,8
+93,lee2008,lee,2008,2008,exp,sham cycling + progressive resistance training,1,0,362,2,,,,3,1,1,1,3,1,3,10 to 12,0,,77,15,15,15,1,,1,1,1,1,0,1,0,1,1,0,0,1,8
+93,lee2008,lee,2008,2008,exp,cycling + progressive resistence training,1,0,359,2,,,,2,1,1,1,3,1,3,10 to 12,0,,77,30,30,30,1,,1,1,1,1,0,1,0,1,1,0,0,1,8
+94,lee2012,lee,2012,2012,ctrl,standard care,1,1,297,1,,y,,4,1.75,1,1.75,5,1,5,4,1,4,28,20,20,20,1,,1,0,0,1,0,0,0,1,0,0,0,1,4
+94,lee2012,lee,2012,2012,exp,standard care + mirror box training,1,0,624,2,,y,,3,2.17,1,2.17,5,1,5,4,1,4,28,28.4,28.4,28.4,1,,1,1,1,1,0,1,0,1,0,0,1,1,8
+95,lin2007,lin,2007,2007,ctrl,standard care,1,1,54,0,,,,5,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,0,0,0,1,1,0,1,0,0,0,1,5
+95,lin2007,lin,2007,2007,exp,mCIMT,1,0,176,0,,,,4,2,1,2,5,1,5,3,1,3,21,105,75,30,1,,1,1,0,0,1,0,1,1,0,0,1,1,7
+96,lin2010,lin,2010,2010,ctrl,standard OT,1,1,97,0,,,,4,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,0,0,0,1,0,0,1,0,0,0,1,4
+96,lin2010,lin,2010,2010,exp,bilateral symmetric movements,1,0,135,0,,,,4,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,1,0,1,1,1,0,1,0,0,0,1,7
+97,lincoln1999,lincoln,1999,1999,ctrl,standard PT,1,1,92,0,,,,3,,0,,5,1,5,5,1,5,35,37.5,37.5,37.5,1,,1,0,0,0,0,0,0,1,0,0,0,0,2
+97,lincoln1999,lincoln,1999,1999,exp,intensive PT provided by an expert,1,0,211,0,,,,3,,0,,5,1,5,5,1,5,35,47.5,47.5,47.5,1,,1,1,0,0,1,1,0,1,0,0,0,0,5
+97,lincoln1999,lincoln,1999,1999,exp,intensive PT provided by an assistant,1,0,290,2,,,,3,,0,,5,1,5,5,1,5,35,47.5,47.5,47.5,1,,1,1,0,0,1,1,0,1,0,0,0,0,5
+98,lo2010,lo,2010,2010,ctrl,usual care,1,1,63,0,,,,3,1,1,1,,0,,12,1,12,84,,,,,1,1,0,0,0,0,0,0,1,0,0,0,1,3
+98,lo2010,lo,2010,2010,exp,intensive Robot assisted therapy,1,0,201,0,,,,2,1,1,1,,0,,12,1,12,84,33,33,33,4,1,1,1,0,1,0,1,0,1,0,0,0,1,6
+98,lo2010,lo,2010,2010,exp,intensive usual care,1,0,59,2,,,,2,1,1,1,,0,,12,1,12,84,32,32,32,4,1,1,0,0,0,0,1,0,1,0,0,0,1,4
+99,logan1997,logan,1997,1997,ctrl,conventional OT,1,1,48,0,,y,,3,,0,,,0,,12,1,12,90,,,,,,1,0,0,0,1,1,0,0,0,0,0,1,4
+99,logan1997,logan,1997,1997,exp,enhanced OT,1,0,135,0,,y,,3,,0,,,0,,12,1,12,90,,,,,,1,1,0,0,1,1,0,0,0,0,0,1,5
+100,luft2008,luft,2008,2008,ctrl,stretching,1,0,80,1,,,,3,0.67,1,0.67,3,1,3,24,1,24,168,0,0,0,1,,1,1,0,0,0,1,0,1,0,0,0,1,5
+100,luft2008,luft,2008,2008,exp,progressive BWS treadmill training,1,0,68,0,,,,3,0.67,1,0.67,3,1,3,24,1,24,168,48.24,48.24,48.24,1,,1,1,0,0,0,1,0,1,1,0,0,1,6
+101,lum2002,lum,2002,2002,ctrl,conventional neurodevelopmental therapy,1,0,315,1,,,,3,1,1,1,,0,,8,1,8,56,24,24,24,1,,1,0,0,0,1,1,0,1,1,0,0,1,6
+101,lum2002,lum,2002,2002,exp,robot assisted therapy,1,0,352,1,,,,3,1,1,1,3,1,3,8,1,8,56,24,24,24,1,,1,1,0,1,1,1,0,1,1,0,0,1,8
+102,macko2005,macko,2005,2005,ctrl,stretching and low intensity aerobic exercise,1,0,58,1,,,,3,,0,,3,1,3,26,1,26,180,5.76,5.76,5.76,1,,1,0,0,0,0,0,1,1,0,0,0,1,4
+102,macko2005,macko,2005,2005,exp,treadmill based aerobic training,1,0,56,2,,,,3,,0,,3,1,3,26,1,26,180,48.24,48.24,48.24,1,,1,1,0,0,0,0,1,1,1,0,0,1,6
+103,masiero2007,masiero,2007,2007,ctrl,CPT + robot training for the unaffected limb,1,0,533,0,,y,,4,,0,,5,1,5,5,1,5,150,,,,,,1,0,0,0,1,1,1,1,0,0,0,0,5
+103,masiero2007,masiero,2007,2007,exp,CPT + robot assisted therapy,1,0,533,0,,y,,4,,0,,5,1,5,5,1,5,150,,,,,,1,1,1,0,1,1,1,1,0,0,0,0,7
+104,masiero2014,masiero,2014,2014,ctrl,standard therapy for the upper limb,1,1,162,0,,,,2,2,1,2,5,1,5,5,1,5,35,50,50,50,1,,1,0,0,0,1,1,0,1,0,0,0,1,5
+104,masiero2014,masiero,2014,2014,exp,standard therapy mixed with robot assisted therapy,1,0,369,3,,,,3,2,1,2,5,1,5,5,1,5,35,50,50,50,1,,1,1,1,0,1,1,0,1,0,0,0,1,7
+105,mcclellan2004,mcclellan,2004,2004,ctrl,"upper body exercises serving as ""sham"" mobility training",1,0,257,1,,,,2,,0,,,0,,6,1,6,42,0,0,0,1,,0,1,0,0,0,1,0,0,1,0,1,1,5
+105,mcclellan2004,mcclellan,2004,2004,exp,home-based mobility exercise,1,0,268,2,,,,2,,0,,,0,,6,1,6,42,,,,,,0,1,0,0,0,1,0,0,1,0,1,1,5
+106,michielsen2011,michielsen,2011,2011,ctrl,homebased upper extermity therapy,1,0,161,0,,,,2,1,1,1,5,1,5,6,1,6,42,36,36,36,1,,0,0,0,0,1,1,1,1,0,0,1,1,6
+106,michielsen2011,michielsen,2011,2011,exp,homebased mirror therapy,1,0,207,0,,,,2,1,1,1,5,1,5,6,1,6,42,36,36,36,1,,1,1,0,0,1,1,1,1,0,0,1,1,8
+107,mirelman2009,mirelman,2009,2009,exp,robot assisted therapy,1,0,196,5,,,,3,1,1,1,3,1,3,4,1,4,28,7.5,7.5,7.5,4,,1,0,0,0,1,1,0,1,0,0,0,1,5
+107,mirelman2009,mirelman,2009,2009,exp,robot assisted therapy + VR interface,1,0,335,5,,,,3,1,1,1,3,1,3,4,1,4,28,8.2,8.2,8.2,4,,1,1,0,1,1,1,0,1,0,0,0,1,7
+108,moore2010,moore,2010,2010,ctrl,CPT up to the crossover point,1,1,68,0,y,,,3,,0,,2 to 5 ,0,,4,1,4,28,,,,4,,1,1,0,0,0,1,0,1,0,0,0,1,5
+108,moore2010,moore,2010,2010,exp,intensive locomotor therapy up to crossover point,1,0,178,3,y,,,3,,0,,2 to 5 ,0,,4,1,4,28,,,,4,,1,1,0,0,0,1,0,1,1,0,0,1,6
+109,moreland2003,moreland,2003,2003,ctrl,CPT + unweighted resistance training,1,0,180,0,y,,,3,0.5,1,0.5,3,1,3,4,1,4,28,,,,,,0,0,0,1,0,1,0,1,0,0,1,1,5
+109,moreland2003,moreland,2003,2003,exp,CPT + progressive resistence training,1,0,238,1,y,,,3,0.5,1,0.5,3,1,3,4,1,4,28,,,,,,0,1,0,1,1,1,0,1,0,0,1,1,7
+110,morone2011,morone,2011,2011,ctrl,CPT for the low motricity group,1,1,134,1,y,,,4,3,1,3,5,1,5,12,1,12,28,60,60,60,1,,1,0,0,0,1,1,0,1,0,0,0,1,5
+110,morone2011,morone,2011,2011,exp,robot assisted therapy for the low motricity group,1,0,354,4,y,,,4,3,1,3,5,1,5,12,1,12,28,60,60,60,1,,1,1,0,1,1,1,0,1,1,0,0,1,8
+110,morone2011,morone,2011,2011,ctrl,CPT for the high motricity group,1,1,133,1,y,,,4,3,1,3,5,1,5,12,1,12,28,60,60,60,1,,1,0,0,0,1,1,0,1,0,0,0,1,5
+110,morone2011,morone,2011,2011,exp,robot assisted therapy for the high motricity group,1,0,354,4,y,,,4,3,1,3,5,1,5,12,1,12,28,60,60,60,1,,1,1,0,1,1,1,0,1,0,0,0,1,7
+111,morone2014,morone,2014,2014,ctrl,conventional balance trianing + CPT,1,0,116,1,y,,,2,0.33,1,0.33,3,1,3,4,1,4,28,30.56,30.56,30.56,1,,0,0,0,0,0,1,0,1,0,0,0,1,3
+111,morone2014,morone,2014,2014,exp,wii fit balance training + CPT,1,0,136,3,y,,,2,0.33,1,0.33,3,1,3,4,1,4,28,30.56,30.56,30.56,1,,1,1,0,0,1,1,0,1,0,0,0,1,6
+112,morris2008,morris,2008,2008,ctrl,unilateral arm training,1,0,566,5,,,,3,0.33,1,0.33,5,1,5,6,1,6,42,10,10,10,4,,1,0,0,0,1,1,1,1,1,0,0,1,7
+112,morris2008,morris,2008,2008,exp,bilateral task specific training,1,0,535,5,,,,3,0.33,1,0.33,5,1,5,6,1,6,42,10,10,10,4,,1,1,1,0,1,1,1,1,1,0,0,1,9
+113,mudge2009,mudge,2009,2009,ctrl,group social and educational classes,1,0,128,1,,,,2,0.83 to 1,0,,3,1,3,4,1,4,28,0,0,0,1,,1,0,0,1,1,1,0,1,0,0,0,1,6
+113,mudge2009,mudge,2009,2009,exp,circuit training,1,0,181,0,,,,2,1.5,1,1.5,3,1,3,4,1,4,28,12,12,12,1,,1,1,0,1,1,1,0,1,0,0,0,1,7
+114,ng2007,ng,2007,2007,ctrl,no treatment,1,0,82,0,,,,,,0,,,0,,4,1,4,28,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+114,ng2007,ng,2007,2007,exp,functional electrical stimulation,1,0,196,0,,,,,1,1,1,5,1,5,4,1,4,28,0,0,0,1,,1,1,1,1,1,1,1,1,1,0,1,0,10
+114,ng2007,ng,2007,2007,exp,functional electrical stim + task relevant training,1,0,215,1,,,,,2,1,2,5,1,5,4,1,4,28,20,20,20,1,,1,1,0,1,1,1,1,1,1,0,1,0,9
+114,ng2007,ng,2007,2007,exp,placebo stim + task relevant therapy,1,0,223,0,,,,,2,1,2,5,1,5,4,1,4,28,20,20,20,1,,1,1,1,1,1,1,1,1,1,0,1,0,10
+115,ng2008,ng,2008,2008,ctrl,conventional overground gait training,1,1,286,2,y,y,y,2,0.33,1,0.33,5,1,5,4,1,4,28,50,50,50,1,,1,1,0,1,1,1,1,1,1,0,0,0,8
+115,ng2008,ng,2008,2008,exp,electromechanical gait training,1,0,321,2,y,y,y,2,0.33,1,0.33,5,1,5,4,1,4,28,50,50,50,1,,1,1,1,1,1,0,1,1,1,0,0,0,8
+115,ng2008,ng,2008,2008,exp,electromechanical gait training + FES,1,0,249,1,y,y,y,2,0.33,1,0.33,5,1,5,4,1,4,28,50,50,50,1,,1,1,1,1,1,0,1,1,1,0,0,0,8
+116,nilsson2001,nilsson,2001,2001,ctrl,overground walking training,1,0,73,0,y,,,4,0.5,1,0.5,5,1,5,3 to 19,0,,66,47.14,47.14,47.14,1,,0,0,0,1,1,1,1,1,1,0,0,0,6
+116,nilsson2001,nilsson,2001,2001,exp,body-weight supported treadmill training,1,0,43,0,y,,,4,0.5,1,0.5,5,1,5,3 to 19,0,,68,48.57,48.57,48.57,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+117,noh2008,noh,2008,2008,ctrl,conventional gait and exercise training,1,1,130,0,,,,,1,1,1,3,1,3,8,1,8,56,24,24,24,1,,1,0,0,1,1,0,1,1,1,0,0,0,6
+117,noh2008,noh,2008,2008,exp,aquatic exercise therapy,1,0,320,0,,,,,1,1,1,3,1,3,8,1,8,56,24,24,24,1,,1,1,0,1,1,1,1,1,1,0,0,0,8
+118,olawale2011,olawale,2011,2011,ctrl,conventional physiotherapy,1,1,78,0,,,,,1,1,1,3,1,3,12,1,12,84,36,36,36,1,,1,0,0,1,0,0,1,1,1,0,0,0,5
+118,olawale2011,olawale,2011,2011,exp,CPT + treadmill training,1,0,160,2,,,,,1,1,1,3,1,3,12,1,12,84,51,51,51,1,,1,1,0,1,0,0,1,1,1,0,0,0,6
+118,olawale2011,olawale,2011,2011,exp,CPT + overground walking,1,0,189,2,,,,,1,1,1,3,1,3,12,1,12,84,51,51,51,1,,1,1,0,1,0,0,1,1,1,0,0,0,6
+119,olney2006,olney,2006,2006,exp,strength and conditioning training,1,0,328,2,,,,,1.5,1,1.5,3,1,3,10,1,10,70,45,45,45,1,,1,1,1,1,0,1,1,1,1,0,0,0,8
+119,olney2006,olney,2006,2006,exp,one week supervised followed by 9 weeks home training,1,0,328,2,,,,,1.5,1,1.5,3,1,3,10,1,10,70,45,45,45,1,,1,1,1,1,0,1,1,1,1,0,0,0,8
+120,oulette2004,oulette,2004,2004,ctrl,stretching and range of motion exercise,1,0,20,0,,,,,,0,,3,1,3,12,1,12,84,,,,,,0,1,0,1,0,0,0,1,0,0,0,0,3
+120,oulette2004,oulette,2004,2004,exp,progressive resistance training,1,0,96,0,,,,,,0,,3,1,3,12,1,12,84,,,,,,1,1,1,1,1,0,0,1,1,0,0,0,7
+121,outermans2010,outermans,2010,2010,ctrl,low intensity physiotherapy program,1,0,205,1,y,,,4,0.75,1,0.75,3,1,3,4,1,4,28,9,9,9,1,,1,1,0,1,1,1,1,1,1,0,0,0,8
+121,outermans2010,outermans,2010,2010,exp,time matched high intensity physiotherapy,1,0,169,4,y,,,4,0.75,1,0.75,3,1,3,4,1,4,28,9,9,9,1,,1,1,0,1,1,0,1,1,1,0,0,0,7
+122,page2004,page,2004,2004,ctrl,no specified physical therapy,1,0,54,0,,,,,,0,,,0,,10,1,10,70,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+122,page2004,page,2004,2004,ctrl,CPT,1,1,147,0,y,y,,3,0.5,1,0.5,3,1,3,10,1,10,70,30,30,30,1,1,1,1,1,1,0,0,1,,,,0,0,5
+122,page2004,page,2004,2004,exp,modified CIMT,1,0,241,2,y,y,,3,0.5,1,0.5,3,1,3,10,1,10,70,280,155,30,1,1,1,1,0,1,0,0,1,1,1,0,1,0,7
+123,page2005,page,2005,2005,ctrl,traditional rehabilitation,1,1,101,0,,,,,0.5,1,0.5,3,1,3,10,1,10,70,15,15,15,1,1,1,0,0,1,1,0,1,1,0,0,0,0,5
+123,page2005,page,2005,2005,exp,modified CIMT,1,0,201,3,,,,,0.5,1,0.5,3,1,3,10,1,10,70,265,140,15,1,1,1,1,1,1,1,0,1,1,1,0,1,0,9
+124,page2008,page,2008,2008,ctrl,no therapy,1,0,43,0,,,,,,0,,,0,,10,1,10,70,0,0,0,1,,0,1,0,0,0,0,0,0,0,0,0,0,1
+124,page2008,page,2008,2008,ctrl,standard care,1,1,188,2,,,,,,0,,3,1,3,10,1,10,70,15,15,15,1,,1,1,0,1,1,1,0,1,1,0,0,0,7
+124,page2008,page,2008,2008,exp,mCIMT,1,0,226,7,,,,,5,1,5,5,1,5,10,1,10,70,265,135,15,1,,1,1,1,1,1,1,0,1,1,0,1,0,9
+125,pandian2012,pandian,2012,2012,exp,brunnstrom based therapy,1,0,99,0,,y,,2,,0,,3,1,3,4,1,4,28,12,12,12,1,,1,1,0,1,1,0,1,1,0,0,0,0,6
+125,pandian2012,pandian,2012,2012,exp,motor relearning programme,1,0,118,0,,y,,2,,0,,3,1,3,4,1,4,28,12,12,12,1,,1,1,0,1,1,0,1,1,1,0,0,0,7
+126,pang2005,pang,2005,2005,ctrl,seated upper extremity program,,0,119,0,,,,,1,1,1,3,1,3,19,1,19,133,57,57,57,1,,0,0,0,1,1,1,1,1,0,0,1,0,6
+126,pang2005,pang,2005,2005,exp,intensive progressive lower extremity training,1,0,246,1,,,,,1,1,1,3,1,3,19,1,19,133,,,,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+127,pang2006,pang,2006,2006,exp,circuit based lower extremity training,,0,277,0,,,,,1,1,1,3,1,3,19,1,19,133,57,57,57,1,,1,1,0,0,1,1,1,1,0,0,0,0,6
+127,pang2006,pang,2006,2006,exp,circuit based upper extremity training,,0,428,0,,,,,1,1,1,3,1,3,19,1,19,133,,,,1,,1,1,0,1,1,1,1,1,1,0,1,0,9
+128,park2011,park,2011,2011,ctrl,routine physical therapy,1,1,7,0,,,,,1,1,1,,0,,4,1,4,28,20,20,20,1,1,0,1,0,1,1,0,1,1,0,0,0,0,5
+128,park2011,park,2011,2011,exp,routine PT + community ambulation training,1,0,254,6,,,,,1,1,1,3,1,3,4,1,4,28,32,32,32,1,1,0,1,0,1,1,0,1,1,1,1,0,0,7
+129,park2013,park,2013,2013,exp,overground gait training,1,0,123,1,,,,,1,1,1,,0,,,0,,28,20,20,20,1,,1,1,1,0,1,1,1,1,0,0,0,0,7
+129,park2013,park,2013,2013,exp,treadmill gait training,1,0,98,1,,,,,1,1,1,,0,,,0,,28,20,20,20,1,,1,1,1,0,0,0,0,1,1,0,0,0,5
+129,park2013,park,2013,2013,exp,overground gait training (less impaired group),1,0,100,0,,,,,1,1,1,,0,,,0,,28,20,20,20,1,,1,1,1,1,1,1,1,1,0,0,0,0,8
+129,park2013,park,2013,2013,exp,treadmill gait training (less impaired group),1,0,98,1,,,,,1,1,1,,0,,,0,,28,20,20,20,1,,1,1,1,0,0,0,0,1,1,0,0,0,5
+130,parker2001,parker,2001,2001,ctrl,coventional occupational therapy,1,1,67,0,,,,,,0,,,0,,26,1,26,180,,,,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+130,parker2001,parker,2001,2001,exp,leisure therapy,1,0,102,0,,y,,4,0.5,1,0.5,,0,,26,0,,180,,,,1,,1,1,0,1,0,0,1,1,1,0,1,0,7
+130,parker2001,parker,2001,2001,exp,ADL therapy,1,0,85,0,,y,,4,0.5,1,0.5,,0,,26,0,,180,,,,1,,1,1,0,1,0,0,1,1,0,0,0,0,5
+131,parry1999,parry,1999,1999,ctrl,routine physical therapy,1,1,19,0,y,,,4,0.5,1,0.5,,0,,5,1,5,35,,,,,1,1,0,0,1,0,0,1,1,0,0,1,0,5
+131,parry1999,parry,1999,1999,exp,additional physio from a qualified therapist,1,0,51,0,y,,,4,,0,,,0,,5,1,5,35,,,,,1,1,1,0,1,1,0,1,0,0,0,1,0,6
+131,parry1999,parry,1999,1999,exp,additional physio from an assistant therapist,1,0,56,0,y,,,4,,0,,,0,,5,1,5,35,,,,,1,1,1,0,1,1,0,1,0,0,0,1,0,6
+132,partridge2000,partridge,2000,2000,ctrl,conventional PT,1,1,40,0,,,,,0.5,1,0.5,5,1,5,6,1,6,42,15,15,15,1,,0,1,0,1,1,0,1,1,0,1,1,0,7
+132,partridge2000,partridge,2000,2000,exp,CPT + CPT,1,1,34,0,,,,,1,1,1,5,1,5,6,1,6,42,30,30,30,1,,1,1,0,1,1,0,1,1,0,1,1,0,8
+133,patten2013,patten,2013,2013,ctrl,functional task practice,1,0,118,1,,,,,,0,,,0,,12,1,12,28,,,,,1,1,1,0,1,1,0,1,1,1,0,1,1,9
+133,patten2013,patten,2013,2013,exp,combined FTP and power training,1,0,115,0,,,,,,0,,,0,,12,1,12,28,,,,,1,1,1,1,1,1,0,1,1,1,0,1,1,10
+134,peurala2005,peurala,2005,2005,ctrl,overground walking + CPT,1,0,169,0,,,,,0.75,1,0.75,,0,,4,1,4,21,20.4,20.4,20.4,3,,1,1,0,0,1,1,1,1,1,0,0,0,7
+134,peurala2005,peurala,2005,2005,exp,BWS gait training + CPT,1,0,332,2,,,,,0.75,1,0.75,,0,,4,1,4,21,20.4,20.4,20.4,3,,1,1,1,0,1,0,1,1,1,0,0,0,7
+134,peurala2005,peurala,2005,2005,exp,BWS gait training with stimulation + CPT,1,0,260,2,,,,,0.75,1,0.75,,0,,4,1,4,21,20.4,20.4,20.4,3,,1,1,1,0,1,0,1,1,1,0,0,0,7
+135,piron2007,piron,2007,2007,ctrl,CPT,1,1,30,0,,,,,1,1,1,5,1,5,5 to 7,0,,42,30,30,30,1,,1,1,1,1,0,1,0,1,1,0,0,0,7
+135,piron2007,piron,2007,2007,exp,reinforcing practice in a virtual environment + CPT,1,0,292,0,,,,,1,1,1,5,1,5,5 to 7,0,,42,30,30,30,1,,1,1,0,0,1,0,0,1,0,0,0,0,4
+136,piron2009,piron,2009,2009,ctrl,CPT for the upper limb,1,1,139,0,y,,,71,1,1,1,5,1,5,4,1,4,30,20,20,20,1,,1,0,0,1,1,0,0,1,1,0,0,0,5
+136,piron2009,piron,2009,2009,exp,VR based telerehabilitation,1,0,167,1,,,,,1,1,1,5,1,5,4,1,4,30,20,20,20,1,,1,1,1,0,1,0,1,1,0,0,0,0,6
+137,piron2010,piron,2010,2010,ctrl,CPT,1,1,176,0,,,,,1,1,1,5,1,5,4,1,4,28,20,20,20,1,,1,1,0,1,1,0,1,1,0,0,0,0,6
+137,piron2010,piron,2010,2010,exp,training in a virtual environment with reinforcement ,1,0,523,2,,,,,1,1,1,5,1,5,4,1,4,28,20,20,20,1,,1,1,1,1,1,0,1,1,1,0,0,0,8
+138,platz2005,platz,2005,2005,ctrl,CPT with no augmented therapy time,1,0,48,0,,,,,0.75,1,0.75,,0,,4,1,4,28,,,,,,1,0,0,1,0,0,1,0,0,0,0,0,3
+138,platz2005,platz,2005,2005,exp,CPT + impairment oriented training,1,0,349,1,,,,,0.75,1,0.75,,0,,4,1,4,28,,,,,,1,1,1,1,1,0,1,0,1,0,0,0,7
+138,platz2005,platz,2005,2005,exp,CPT + bobath therapy,1,0,114,0,,,,,0.75,1,0.75,,0,,4,1,4,28,,,,,,1,1,1,1,1,0,1,0,0,0,0,0,6
+139,platz2009,platz,2009,2009,ctrl,passive therapy with inflatable splints + CPT,1,0,56,0,,,,,0.75,1,0.75,5,1,5,3 to 4,0,,28,,,,,,1,1,1,1,0,0,1,1,1,0,0,0,7
+139,platz2009,platz,2009,2009,ctrl,individualized best conventional therapy + CPT,1,0,101,0,,,,,0.75,1,0.75,5,1,5,3 to 4,0,,28,,,,,,1,1,0,1,1,1,1,1,1,0,0,0,8
+139,platz2009,platz,2009,2009,exp,standardized impairment oriented training + CPT,1,0,249,3,,,,,0.75,1,0.75,5,1,5,3 to 4,0,,28,,,,,,1,1,0,1,1,0,1,1,1,0,0,0,7
+140,pohl2002,pohl,2002,2002,ctrl,conventional gait training,1,1,36,2,,,,,,0,,,0,,4,0,,28,15,15,15,1,,1,0,1,1,1,1,1,1,0,0,0,0,7
+140,pohl2002,pohl,2002,2002,exp,structured speed dependent treadmill training,1,0,332,0,,,,,1,1,1,,0,,4,0,,28,12,12,12,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+140,pohl2002,pohl,2002,2002,exp,limited progressive treadmill training,1,0,58,0,,,,,1,1,1,,0,,4,0,,28,12,12,12,1,,1,0,1,1,1,1,1,1,1,0,0,0,8
+141,pohl2007,pohl,2007,2007,ctrl,physiotherapy every week day,1,0,158,0,,y,,4,0.75,1,0.75,5,1,5,4,1,4,28,11.3,11.3,11.3,4,,0,1,1,0,1,1,1,1,1,0,0,0,7
+141,pohl2007,pohl,2007,2007,exp,mixed pure locomotor training with physiotherapy,1,0,233,1,,y,,4,0.75,1,0.75,5,1,5,4,1,4,28,13.5,13.5,13.5,4,,0,1,0,1,1,1,1,1,1,0,0,0,7
+142,pomeroy2001,pomeroy,2001,2001,ctrl,usual daily activities without weighted garments,1,0,70,2,,,,,,0,,,0,,6,1,6,42,,,,,1,0,0,0,0,1,1,1,1,0,0,1,0,5
+142,pomeroy2001,pomeroy,2001,2001,exp,usual daily activities while wearing weighted garments,1,0,906,0,,,,,,0,,,0,,6,1,6,42,,,,,1,0,1,1,1,1,1,1,1,1,0,1,0,9
+143,popovic2003,popovic,2003,2003,ctrl,low functioning patients in conventional therapy,1,0,56,0,,,,,0.5,1,0.5,7,1,7,3,1,3,21,,,,,,1,0,0,1,0,1,1,1,0,0,0,0,5
+143,popovic2003,popovic,2003,2003,ctrl,high functioning patients in conventional therapy,1,0,56,0,,,,,0.5,1,0.5,7,1,7,3,1,3,21,,,,,,1,0,0,1,0,1,1,1,0,0,0,0,5
+143,popovic2003,popovic,2003,2003,exp,low functioning patients in CPT + FES task based training,1,0,538,1,,,,,0.5,1,0.5,7,1,7,3,1,3,21,,,,,,1,1,1,1,1,1,1,1,1,0,0,0,9
+143,popovic2003,popovic,2003,2003,exp,high functioning patients in CPT + FES task oriented training,1,0,537,1,,,,,0.5,1,0.5,7,1,7,3,1,3,21,,,,,,1,1,1,1,1,1,1,1,1,0,0,0,9
+144,rabadi2008,rabadi,2008,2008,ctrl,conventional occupational and physical therapy,1,1,207,0,y,y,,4,0.66,1,0.66,5,1,5,,0,,30.95,74,74,74,1,,1,0,0,1,1,1,1,1,0,0,0,0,6
+144,rabadi2008,rabadi,2008,2008,exp,robot assisted therapy,1,0,210,1,y,y,,4,0.66,1,0.66,5,1,5,,0,,36.32,85.85,85.85,85.85,1,,1,1,1,1,1,0,1,1,0,0,0,0,7
+144,rabadi2008,rabadi,2008,2008,exp,arm ergometer training,1,0,223,0,y,y,,4,0.66,1,0.66,5,1,5,,0,,34.92,82.7,82.7,82.7,1,,1,1,1,1,1,0,1,1,1,0,0,0,8
+145,ribeiro2013,ribeiro,2013,2013,exp,"PNF therapy, no other gait therapies given",1,0,419,3,,,,,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,1,,1,1,0,1,1,1,0,1,1,0,0,0,7
+145,ribeiro2013,ribeiro,2013,2013,exp,body weight supported treadmill training,1,0,396,2,,,,,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,1,,1,1,1,1,1,1,0,1,1,0,0,0,8
+146,riccio2010,riccio,2010,2010,ctrl,CPT up to the crossover point,1,1,176,1,,,,,3,1,3,5,1,5,3,1,3,21,45,45,45,1,1,0,1,0,1,1,0,1,1,0,0,0,0,5
+146,riccio2010,riccio,2010,2010,exp,CPT plus mental practice up to the cross over point,1,0,95,0,,,,,3,1,3,5,1,5,3,1,3,21,45,45,45,1,1,0,1,0,1,1,0,1,1,0,0,0,0,5
+147,richards2004,richards,2004,2004,exp,treadmill training and isokinetic exercise,1,0,254,2,,y,y,2,1,1,1,5,1,5,8,1,8,56,39.1,39.1,39.1,2,,0,0,0,1,1,1,1,1,1,0,1,0,7
+147,richards2004,richards,2004,2004,ctrl,CPT,1,1,230,1,,y,y,2,1,1,1,5,1,5,8,1,8,56,44.9,44.9,44.9,2,,0,1,1,1,1,1,1,1,1,0,1,0,9
+148,richards1993,richards,1993,1993,ctrl,CPT started later and at lower intensity,1,0,84,0,,y,,2,,0,,,0,,6,1,6,42,13.79,13.79,13.79,2,,0,1,0,0,0,0,1,1,0,0,0,0,3
+148,richards1993,richards,1993,1993,ctrl,CPT that was early and intensive,1,0,74,0,,y,,2,,0,,,0,,6,1,6,42,37.7,37.7,37.7,2,,0,1,0,1,0,0,1,1,0,0,0,0,4
+148,richards1993,richards,1993,1993,exp,intensive gait focused therapy,1,0,109,0,,y,,2,,0,,,0,,6,1,6,42,40.72,40.72,40.72,2,,0,1,1,1,0,0,1,1,0,0,0,0,5
+149,rodgers2003,rodgers,2003,2003,ctrl,conventional physical and occupational therapy,1,1,49,2,,,,,0.5,1,0.5,5,1,5,6,0,,90,,,,1,,1,0,0,1,1,1,1,1,1,0,1,0,8
+149,rodgers2003,rodgers,2003,2003,exp,stroke unit care plus enhanced upper limb rehabilitation,1,0,124,0,,,,,0.5,1,0.5,5,1,5,1 to 6,0,,90,,,,1,,1,0,0,1,1,1,1,1,0,0,1,0,7
+150,rydwik2006,rydwik,2006,2006,ctrl,no therapy,1,0,15,0,,,,,,0,,,0,,6,1,6,42,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+150,rydwik2006,rydwik,2006,2006,exp,"""stimulo"" device",1,0,195,0,,,,,0.5,1,0.5,3,1,3,6,1,6,42,9,9,9,1,,0,1,1,1,1,0,1,1,1,0,1,0,8
+151,sackley1997,sackley,1997,1997,ctrl,balance training without visual feedback,1,0,330,1,,,,,1,1,1,3,1,3,4,1,4,28,12,12,12,1,,1,1,1,1,1,0,0,1,1,0,0,0,7
+151,sackley1997,sackley,1997,1997,exp,balance training with augmented visual feedback,1,0,343,4,,,,,1,1,1,3,1,3,4,1,4,28,12,12,12,1,,0,1,1,1,1,0,0,1,1,0,0,0,6
+152,saeys2012,saeys,2012,2012,ctrl,CPT + 16 hours sham therapy,1,0,165,1,y,y,,3,0.5,1,0.5,4,1,4,8,1,8,56,,,,,,0,1,0,1,1,0,0,1,0,0,0,0,4
+152,saeys2012,saeys,2012,2012,exp,CPT + 16 hours of trunk exercise,1,0,188,3,y,y,,3,0.5,1,0.5,4,1,4,8,1,8,56,,,,,,0,1,0,1,1,0,0,1,0,0,0,0,4
+153,salbach/higgins2004/2006,salbach/higgins,2004/2006,2004,ctrl,upper extremity therapy,1,0,165,1,,,,,,0,,3,1,3,6,1,6,42,0,0,0,1,,1,1,0,1,0,0,1,1,0,0,0,0,5
+153,salbach/higgins2004/2006,salbach/higgins,2004/2006,2004,exp,functional lower extremity training,1,0,76,0,,,,,,0,,3,1,3,6,1,6,42,18,18,18,1,,1,1,0,1,1,1,1,1,1,0,1,0,9
+154,saposnik2010,saposnik,2010,2010,ctrl,"recreational therapy (bingo, cards)",1,0,103,1,y,y,,3,1,1,1,,0,,2,1,2,14,6.5,6.5,6.5,1,1,1,1,0,1,1,0,1,1,0,0,1,0,7
+154,saposnik2010,saposnik,2010,2010,exp,upper extremity therapy using the Wii,1,0,269,0,y,y,,3,,0,,,0,,2,1,2,14,6.1,6.1,6.1,1,,1,1,1,0,1,0,1,1,0,0,0,0,6
+155,schauer2003,schauer,2003,2003,ctrl,conventional gait therapy,1,1,105,0,,,,,1.08,1,1.08,5,1,5,3,1,3,21,16.25,16.25,16.25,1,,0,1,0,1,1,0,1,1,1,0,0,0,6
+155,schauer2003,schauer,2003,2003,exp,musical motor therapy,1,0,183,0,,,,,1.08,1,1.08,5,1,5,3,1,3,21,16.25,16.25,16.25,1,,1,1,1,1,0,0,1,1,1,0,0,0,7
+156,schmid2012,schmid,2012,2012,ctrl,waitlisted control group,1,0,220,1,,,,,,0,,,0,,8,1,8,56,0,0,0,1,,0,0,0,1,1,0,0,0,0,0,0,0,2
+156,schmid2012,schmid,2012,2012,exp,yoga based intervention on balance,1,0,235,1,,,,,1,1,1,,0,,8,1,8,56,,,,,,1,1,1,1,1,1,0,1,1,0,0,0,8
+157,schwartz2009,schwartz,2009,2009,ctrl,regular physiotherapy,1,0,160,0,,,,,,0,,,0,,6,1,6,42,20,20,20,2,,1,0,0,1,1,0,1,1,0,0,0,0,5
+157,schwartz2009,schwartz,2009,2009,exp,robot assisted gait training,1,0,327,0,,,,,,0,,,0,,6,1,6,42,20,20,20,2,,1,1,1,1,1,0,1,1,1,0,0,0,8
+158,severinsen2014,severinsen,2014,2014,exp,progressive aerobic training on a cycle egrometer,1,0,285,1,,,,,1,1,1,3,1,3,12,1,12,84,36,36,36,1,,1,1,0,1,1,0,1,1,1,0,0,0,7
+158,severinsen2014,severinsen,2014,2014,exp,sham training on cycle ergometer,1,0,196,1,,,,,1,1,1,3,1,3,12,1,12,84,,,,1,,1,0,0,1,1,0,1,1,1,0,0,0,6
+158,severinsen2014,severinsen,2014,2014,exp,progressive resistance training,1,0,135,1,,,,,1,1,1,3,1,3,12,1,12,84,36,36,36,1,,1,1,0,1,1,0,1,1,1,1,0,0,8
+159,shin2010,shin,2010,2010,ctrl,no specified physical therapy,1,0,15,1,,,,,,0,,,0,,6,1,6,42,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+159,shin2010,shin,2010,2010,exp,game-based therapy using PS2 eyetoy,1,0,156,4,,,,,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,0,0,1,1,0,0,0,0,6
+160,sivenius1985,sivenius,1985,1985,ctrl,normal treatment,1,0,78,0,y,,,3,,0,,,0,,13,1,13,90,,,,1,,1,1,0,1,1,0,1,0,1,0,0,0,6
+160,sivenius1985,sivenius,1985,1985,exp,intensive treatment group,1,0,157,0,,,,,,0,,,0,,13,1,13,90,,,,1,,1,1,0,1,1,0,1,1,1,0,0,0,7
+161,smania2012,smania,2012,2012,ctrl,conventional therapy,1,1,320,3,,,,,2,1,2,5,1,5,2,1,2,14,20,20,20,1,,0,1,0,1,1,1,1,1,0,0,0,0,6
+161,smania2012,smania,2012,2012,exp,mCIMT,1,0,678,4,,,,,2,1,2,5,1,5,2,1,2,14,140,80,20,1,,1,1,1,1,1,1,1,1,1,0,1,0,10
+162,smith1981,smith,1981,1981,ctrl,no rehabilitation,1,0,137,0,,,,,,0,,,0,,13,1,13,90,0,0,0,1,,0,1,0,0,1,1,1,0,0,0,0,0,4
+162,smith1981,smith,1981,1981,ctrl,conventional rehabilitation,1,1,137,0,y,y,y,2,4,1,4,3,1,3,13,1,13,90,66,66,66,1,,1,1,0,0,1,1,1,1,0,0,0,0,6
+162,smith1981,smith,1981,1981,exp,intensive rehabilitation,1,0,71,0,y,y,y,2,8,1,8,4,1,4,13,1,13,90,124,124,124,1,,1,1,0,0,1,1,1,1,0,0,0,0,6
+163,stein2004,stein,2004,2004,exp,robot assisted training,1,0,484,4,,,,,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,1,1,0,1,0,0,0,0,7
+163,stein2004,stein,2004,2004,exp,robot aided progressive resistence training,1,0,399,4,,,,,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,1,1,0,1,1,0,0,0,8
+164,stinear2008,stinear,2008,2008,ctrl,self-directed home-based practice,1,0,239,0,,,,,0.17,1,0.17,3,1,3,2,1,2,28,14,14,14,4,,1,0,1,1,0,1,1,1,0,0,1,0,7
+164,stinear2008,stinear,2008,2008,exp,active-passive bilateral therapy,1,0,439,7,,,,,0.17,1,0.17,3,1,3,2,1,2,28,14,14,14,4,,1,1,1,1,0,1,1,1,0,0,1,0,8
+165,subramanian2013,subramanian,2013,2013,ctrl,training in a physical environment,1,0,233,1,,,,,0.75,1,0.75,3,1,3,4,1,4,28,9,9,9,1,,1,0,1,1,1,1,0,1,1,0,1,0,8
+165,subramanian2013,subramanian,2013,2013,exp,3D vitrual environment training,1,0,233,1,,,,,0.75,1,0.75,3,1,3,4,1,4,28,9,9,9,1,,1,1,1,1,1,1,0,1,1,0,1,0,9
+166,sullivan2002,sullivan,2002,2002,exp,BWSTT at slow speed,1,0,525,1,,,,,0.33,1,0.33,,0,,4,0,,28,4,4,4,3,,1,1,1,1,1,1,1,1,1,0,1,1,11
+166,sullivan2002,sullivan,2002,2002,exp,BWSTT at high speed,1,0,525,1,,,,,0.33,1,0.33,,0,,4,0,,28,4,4,4,3,,1,1,1,1,1,1,1,1,1,0,1,1,11
+166,sullivan2002,sullivan,2002,2002,exp,BWSTT at variable speed,1,0,525,1,,,,,0.33,1,0.33,,0,,4,0,,28,4,4,4,3,,1,1,1,1,1,1,1,1,1,0,1,1,11
+167,sullivan2007,sullivan,2007,2007,exp,BWSTT with upper extremity ergometry,1,0,380,2,,,,,1,1,1,4,1,4,6,1,6,42,24,24,24,1,,1,1,1,1,1,0,0,1,1,0,0,0,7
+167,sullivan2007,sullivan,2007,2007,exp,cycling with upper extremity ergomety,1,0,381,2,,,,,1,1,1,4,1,4,6,1,6,42,24,24,24,1,,1,1,1,1,1,0,0,1,0,0,0,0,6
+167,sullivan2007,sullivan,2007,2007,exp,BWSTT with cycling,1,0,386,2,,,,,1,1,1,4,1,4,6,1,6,42,24,24,24,1,,1,1,1,1,1,0,0,1,1,0,0,0,7
+167,sullivan2007,sullivan,2007,2007,exp,BWSTT with progessive lower extremity resistance training,1,0,374,2,,,,,1,1,1,4,1,4,6,1,6,42,24,24,24,1,,1,1,1,1,1,0,0,1,1,0,0,0,7
+168,sunderland1992,sunderland,1992,1992,ctrl,orthodox physical therapy - severe sub group,1,0,183,2,,,,,,0,,,0,,,0,,,,,,,,1,0,0,1,1,0,1,1,1,0,1,0,7
+168,sunderland1992,sunderland,1992,1992,exp,motor learning program - severe sub group,1,0,262,4,,,,,,0,,,0,,,0,,,,,,,,1,1,0,1,1,0,1,1,1,0,1,0,8
+168,sunderland1992,sunderland,1992,1992,ctrl,orthodox physical therapy - mild sub group,1,0,183,2,,,,,,0,,,0,,,0,,,,,,,,1,0,0,1,1,0,1,1,1,0,1,0,7
+168,sunderland1992,sunderland,1992,1992,exp,motor learning program - mild sub group,1,0,262,4,,,,,,0,,,0,,,0,,,,,,,,1,1,0,1,1,0,1,1,1,0,1,0,8
+169,sungkarat2011,sungkarat,2011,2011,ctrl,conventional programme of gait retraining,1,1,51,0,,,,,1,1,1,5,1,5,3,1,3,21,15,15,15,1,,0,0,0,1,0,0,1,1,0,0,0,0,3
+169,sungkarat2011,sungkarat,2011,2011,exp,gait training with a sensored insole and augmented feedback,1,0,68,0,,,,,1,1,1,5,1,5,3,1,3,21,15,15,15,1,,0,1,1,1,0,0,1,1,1,0,0,0,6
+170,sutbeyaz2007,sutbeyaz,2007,2007,ctrl,CPT + sham mirror box therapy,1,0,129,0,y,y,y,2,2 to 5,0,,5,1,5,4,1,4,28,,,,1,,1,1,1,1,0,0,1,1,1,0,0,0,7
+170,sutbeyaz2007,sutbeyaz,2007,2007,exp,CPT + mirror box therapy,1,0,130,0,,,,,2 to 5,0,,5,1,5,4,1,4,28,,,,1,,1,1,1,1,0,0,1,1,0,0,0,0,6
+171,tanaka2012,tanaka,2012,2012,ctrl,no therapy,1,0,78,0,,,,,,0,,,0,,4 to 6,0,,28,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+171,tanaka2012,tanaka,2012,2012,exp,GaitMaster 4,1,0,139,0,,,,,0.33,1,0.33,2 to 3,0,,4 to 6,0,,28,4,4,4,1,,1,1,1,1,1,0,0,1,0,0,0,0,6
+172,taub2006,taub,2006,2006,ctrl,general fitness,1,0,82,0,,,,,6,1,6,5,1,5,2,1,2,14,60,60,60,1,,1,1,0,1,1,0,1,1,0,0,1,0,7
+172,taub2006,taub,2006,2006,exp,CIMT,1,0,226,2,,,,,6,1,6,5,1,5,2,1,2,14,172,116,60,1,,1,1,1,1,1,0,1,1,1,0,1,0,9
+173,thaut2007,thaut,2007,2007,ctrl,neurodevelopmental/bobath therapy (CPT),1,1,280,1,,,,,0.5,1,0.5,5,1,5,3,1,3,21,,,,1,,1,1,0,1,1,0,1,1,0,0,0,0,6
+173,thaut2007,thaut,2007,2007,exp,rythmic auditory stimulation during gait,1,0,357,3,,,,,0.5,1,0.5,5,1,5,3,1,3,21,,,,1,,1,1,1,1,1,0,1,1,1,0,0,0,8
+174,timmermans2013,timmermans,2013,2013,ctrl,neurodevelopmental therapy,1,0,151,4,,,,,,0,,,0,,6,1,6,42,,,,,,1,1,1,1,1,1,1,1,1,0,0,0,9
+174,timmermans2013,timmermans,2013,2013,exp,video instructed mental practice + CPT,1,0,300,1,,,,,,0,,,0,,6,1,6,42,,,,,,0,0,0,1,1,1,1,1,0,0,0,0,5
+175,timmermans2014,timmermans,2014,2014,ctrl,task oriented non-robotic training,1,0,527,5,,,,,1,1,1,4,1,4,8,1,8,56,32,32,32,1,,1,1,1,1,1,0,0,1,1,0,0,0,7
+175,timmermans2014,timmermans,2014,2014,exp,robot-assisted arm-hand training,1,0,534,6,,,,,1,1,1,4,1,4,8,1,8,56,32,32,32,1,,1,1,0,1,1,0,0,1,1,0,0,0,6
+176,treger2012,treger,2012,2012,ctrl,standard care,1,1,198,0,y,,y,3,1,1,1,5,1,5,2,1,2,14,17.5,17.5,17.5,1,,1,1,0,1,0,1,1,1,0,1,0,0,7
+176,treger2012,treger,2012,2012,exp,mcimt,1,0,247,0,y,,y,3,4,1,4,5,1,5,2,1,2,14,57.5,37.5,17.5,1,,1,1,1,1,0,1,1,1,0,1,0,0,8
+177,van de port2012,van de port,2012,2012,ctrl,usual physiotherapy,1,1,74,1,,,,,,0,,,0,,12,1,12,84,,,,,,0,1,0,1,1,1,1,0,1,0,0,0,6
+177,van de port2012,van de port,2012,2012,exp,progressive circuit training,1,0,228,1,,,,,0.9,1,0.9,2,1,2,12,1,12,84,36,36,36,1,,0,1,0,1,1,1,1,1,0,0,1,0,7
+178,van deldan2013,van deldan,2013,2013,ctrl,coventional therapy,1,1,168,1,,,,,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,0,0,0,1,0,0,0,0,5
+178,van deldan2013,van deldan,2013,2013,exp,mCIMT,1,0,107,2,,,,,1,1,1,3,1,3,6,1,6,42,198,108,18,1,,1,1,1,1,0,0,0,1,0,0,0,0,5
+178,van deldan2013,van deldan,2013,2013,exp,bilateral arm training with auditory cuing,1,0,168,1,,,,,1,1,1,3,1,3,6,1,6,42,18,18,18,1,,1,1,0,1,0,0,0,1,0,0,0,0,4
+179,van der lee1999,van der lee,1999,1999,ctrl,bimanual training using neurodevelopmental methods,1,0,193,1,,,,,,0,,,0,,2,1,2,14,60,60,60,1,1,1,1,0,1,1,1,1,1,1,0,1,0,9
+179,van der lee1999,van der lee,1999,1999,exp,forced use therapy,1,0,171,1,,,,,,0,,,0,,2,1,2,14,60,60,60,1,,1,1,1,0,1,1,1,1,1,0,0,0,8
+180,van nes2006,van nes,2006,2006,exp,exercise therapy with music + CPT,1,0,254,0,y,y,,3,,0,,5,1,5,6,1,6,42,186.6,186.6,186.6,1,,1,1,1,1,1,1,1,1,0,0,0,0,8
+180,van nes2006,van nes,2006,2006,exp,balance vibration trianing + CPT,1,0,378,1,y,y,,3,,0,,5,1,5,6,1,6,42,220.7,220.7,220.7,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+181,van vliet2005,van vliet,2005,2005,ctrl,bobath based treatment,1,0,323,18,,,,,,0,,,0,,,0,,,,,,,,1,1,0,1,1,0,1,1,1,0,0,0,7
+181,van vliet2005,van vliet,2005,2005,exp,movement science based treatment,1,0,282,18,,,,,,0,,,0,,,0,,,,,,,,1,1,0,1,1,0,1,1,1,0,0,0,7
+182,varoqui2011,varoqui,2011,2011,ctrl,standing practice (group c),1,0,157,0,y,,,7,0.25,1,0.25,3,1,3,4,1,4,28,3,3,3,1,,0,0,1,1,0,0,0,1,1,0,0,0,4
+182,varoqui2011,varoqui,2011,2011,exp,balance practice with feedback (group a),1,0,157,0,y,,,7,,0,,3,1,3,4,1,4,28,3,3,3,1,,0,1,1,1,0,0,0,1,1,0,0,0,5
+182,varoqui2011,varoqui,2011,2011,exp,balance practice with feedback (group b),1,0,201,0,y,,,7,,0,,3,1,3,4,1,4,28,3,3,3,1,,0,1,1,1,1,0,0,1,1,0,0,0,6
+183,verheyden2009,verheyden,2009,2009,ctrl,conventional therapy,1,1,68,0,y,y,,2,0.5,1,0.5,4,1,4,5,1,5,35,,,,,,1,0,0,0,1,0,1,1,1,0,0,0,5
+183,verheyden2009,verheyden,2009,2009,exp,conventional therapy + 10 hours of individual supervised trunk exercise,1,0,397,0,y,y,,2,0.5,1,0.5,4,1,4,5,1,5,35,,,,,,0,1,0,1,1,0,1,1,1,0,0,0,6
+184,verma2011,verma,2011,2011,ctrl,standard therapy group,1,1,42,1,,,,,0.66,1,0.66,7,1,7,2,1,2,14,8.12,8.12,8.12,1,,0,0,0,1,1,0,1,1,0,0,0,0,4
+184,verma2011,verma,2011,2011,exp,task oriented circuit training,1,0,275,0,,,,,0.66,1,0.66,7,1,7,2,1,2,14,8.12,8.12,8.12,1,,1,1,0,1,1,1,1,1,1,0,0,0,8
+185,vistin1998,vistin,1998,1998,ctrl,treadmill walking with full weight bearing,1,0,364,1,y,,,3,0.33,1,0.33,4,1,4,6,1,6,42,7.92,7.92,7.92,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+185,vistin1998,vistin,1998,1998,exp,BWSTT,1,0,458,1,y,,,3,0.33,1,0.33,4,1,4,6,1,6,42,7.92,7.92,7.92,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+186,volpe2000,volpe,2000,2000,exp,robot assisted therapy,1,0,91,0,y,y,,2,1,1,1,5,1,5,5,1,5,34.9,,,,4,,1,1,1,1,1,1,0,1,0,0,0,0,7
+186,volpe2000,volpe,2000,2000,exp,exposure to robotic device w/o training + CPT,1,0,293,3,y,y,,2,1,1,1,5,1,5,5,1,5,37.1,,,,4,,0,0,1,1,1,1,0,1,0,0,0,0,5
+187,wade1992,wade,1992,1992,ctrl,delayed physiotherapy,1,0,140,0,,,,,0.66,1,0.66,4,1,4,,0,,,0,0,0,1,,1,1,0,1,1,1,1,1,1,0,1,0,9
+187,wade1992,wade,1992,1992,exp,immediate physical therapy,1,0,140,0,,,,,0.66,1,0.66,4,1,4,,0,,,,,,,,1,1,0,0,1,1,1,1,1,0,1,0,8
+188,waldman2013,waldman,2013,2013,ctrl,instructed home exercise program,1,0,124,0,,,,,1,1,1,3,1,3,6,1,6,42,9,9,9,3,,0,0,1,1,0,1,1,1,0,0,1,1,7
+188,waldman2013,waldman,2013,2013,exp,training using a portable robot,1,0,266,5,,,,,1,1,1,3,1,3,6,1,6,42,9,9,9,3,,1,1,1,1,0,1,1,1,1,0,0,0,8
+189,walker1999,walker,1999,1999,ctrl,no specified physical therapy,1,0,188,5,,,,,,0,,,0,,,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0
+189,walker1999,walker,1999,1999,exp,up to 5 months of occupational therapy at home,1,0,270,5,,y,,1,,0,,,0,,,0,,,,,,,,1,1,0,1,1,1,1,1,1,0,0,0,8
+190,walker2000,walker,2000,2000,exp,balance training with visual feedback + CPT,1,0,143,0,y,y,,2,0.5,1,0.5,5,1,5,3 to 8,0,,39.3,70,70,70,1,,1,1,1,1,1,1,1,1,1,0,0,0,9
+190,walker2000,walker,2000,2000,ctrl,conventional PT and OT with additional balance training,1,0,143,0,y,y,,2,2.5,1,2.5,5,1,5,3 to 8,0,,36.7,65,65,65,1,,1,1,1,1,1,1,1,1,1,1,0,0,10
+190,walker2000,walker,2000,2000,ctrl,conventional PT and OT,1,1,375,0,y,y,,2,2,1,2,,0,,3 to 8,0,,36.6,52,52,52,1,,1,1,1,1,1,1,1,1,0,0,0,0,8
+191,wang2005,wang,2005,2005,exp,bobath therapy severe subset,1,0,175,3,,,,,0.66,1,0.66,5,1,5,4,1,4,28,13.3,13.3,13.3,1,,1,1,0,1,1,0,1,1,1,0,0,0,7
+191,wang2005,wang,2005,2005,exp,orthopaedic treatment programme severe group,1,0,127,1,,,,,0.66,1,0.66,5,1,5,4,1,4,28,13.3,13.3,13.3,1,,1,1,1,1,1,0,1,1,0,0,0,0,7
+191,wang2005,wang,2005,2005,exp,bobath therapy less severe group,1,0,175,3,,,,,0.66,1,0.66,5,1,5,4,1,4,28,13.3,13.3,13.3,1,,1,1,0,1,1,0,1,1,1,0,0,0,7
+191,wang2005,wang,2005,2005,exp,orthopaedic treatment programme less severe group,1,0,127,1,,,,,0.66,1,0.66,5,1,5,4,1,4,28,13.3,13.3,13.3,1,,1,1,1,1,1,0,1,1,0,0,0,0,7
+192,werner1996,werner,1996,1996,exp,intensive outpatient therapy,1,0,231,11,y,y,,1,1,1,1,4,1,4,12,1,12,84,96,96,96,1,,1,1,0,1,1,0,0,1,0,0,0,0,5
+192,werner1996,werner,1996,1996,ctrl,no outpatient therapy,1,0,360,11,,,,,,0,,,0,,12,1,12,84,0,0,0,1,,1,1,0,0,1,0,0,0,0,1,0,0,4
+193,werner2002,werner,2002,2002,exp,robotic gait trainer therapy,1,0,279,0,y,y,,3,0.25 to 0.33,0,,5,1,5,2,1,2,14,3.33,3.33,3.33,3,,1,1,1,1,0,0,0,1,1,0,1,1,8
+193,werner2002,werner,2002,2002,exp,treadmill therapy,1,0,88,0,y,y,,3,0.25 to 0.33,0,,5,1,5,2,1,2,14,3.33,3.33,3.33,3,,1,1,1,1,0,0,0,1,1,0,1,1,8
+194,westlake2009,westlake,2009,2009,ctrl,manually assisted BWSTT,1,0,513,3,,,,,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,3,,1,1,0,1,1,0,0,1,0,0,0,0,5
+194,westlake2009,westlake,2009,2009,exp,gait training with lokomat,1,0,486,2,,,,,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,3,,1,1,1,1,1,0,0,1,1,0,0,0,7
+195,whitall2011,whitall,2011,2011,ctrl,dose-matched therapeutic exercise,1,0,172,2,,,,,,0,,3,1,3,6,1,6,42,18,18,18,1,,1,1,0,1,0,0,0,1,0,0,1,0,5
+195,whitall2011,whitall,2011,2011,exp,bilateral arm training with auditory cuing,1,0,316,2,,,,,,0,,3,1,3,6,1,6,42,18,18,18,1,,1,1,1,1,0,0,0,1,1,0,1,0,7
+196,widen holmquist1998,widen holmquist,1998,1998,ctrl,routine rehabilitation service in the hospital,1,1,368,1,,,,,,0,,,0,,3 to 4,0,,90,,,,,,1,1,0,1,0,0,1,0,1,0,0,0,5
+196,widen holmquist1998,widen holmquist,1998,1998,exp,early discharge with home rehabilitation for 3-4 months,1,0,264,1,,,,,0.5,1,0.5,2,1,2,3 to 4,0,,90,,,,,,1,1,0,1,1,1,1,1,1,1,1,1,11
+197,winstein2004,winstein,2004,2004,ctrl,standard care,1,1,125,5,y,y,,3,1,1,1,5,1,5,4,1,4,28,20,20,20,2,,1,0,0,1,1,0,1,1,0,0,0,0,5
+197,winstein2004,winstein,2004,2004,exp,strength training,1,0,247,6,y,y,,3,1,1,1,5,1,5,4,1,4,28,40,40,40,2,,1,1,1,1,1,0,1,1,1,1,0,0,9
+197,winstein2004,winstein,2004,2004,exp,function task,1,0,283,4,y,y,,3,1,1,1,5,1,5,4,1,4,28,40,40,40,2,,1,1,0,1,1,0,1,1,1,0,0,0,7
+198,wittenberg2003,wittenberg,2003,2003,exp,modified CIMT,1,0,105,1,,,,,,0,,,0,,,0,,10,216,136,56,1,,1,1,0,1,0,0,1,1,0,0,0,0,5
+198,wittenberg2003,wittenberg,2003,2003,ctrl,placebo like intervention with no expected effects (focused on the unaffected arm),1,0,125,2,y,y,,3,,0,,,0,,,0,,10,0,0,0,1,,1,1,1,1,0,0,1,1,0,0,0,0,6
+199,wolf2006; 2010,wolf,2006; 2010,2006,exp,cimt,1,0,282,6,y,y,,2,,0,,,0,,2,1,2,14,261.6,160.8,60,1,1,1,1,0,1,1,1,1,1,1,0,1,0,9
+199,wolf2006; 2010,wolf,2006; 2010,2006,ctrl,standard care,1,1,91,0,y,y,,2,,0,,,0,,2,1,2,14,0,0,0,1,1,1,1,1,1,0,1,1,1,1,0,1,0,9
+200,wu2007,wu,2007,2007,ctrl,conventional therapy,1,1,186,0,,y,,2,2,1,2,5,1,5,3,1,3,21,52.5,52.5,52.5,1,,1,0,1,1,1,0,1,1,0,0,1,0,7
+200,wu2007,wu,2007,2007,exp,CIMT,1,0,256,0,,y,,2,2,1,2,5,1,5,3,1,3,21,178.5,115.5,52.5,1,,1,1,1,1,1,0,1,1,0,0,1,0,8
+201,wuB2007,wuB,2007,2007,ctrl,traditional rehabilitation,1,1,154,1,,y,,2,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,1,0,1,1,1,1,1,0,0,0,0,7
+201,wuB2007,wuB,2007,2007,ctrl,modified CIMT,1,0,381,1,,y,,2,2,1,2,5,1,5,3,1,3,21,120,75,30,1,,1,1,1,1,1,1,1,1,1,1,0,0,10
+202,wu2010,wu,2010,2010,ctrl,routine physical therapy,1,1,137,4,y,,,4,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,1,0,1,1,0,1,1,0,0,0,0,6
+202,wu2010,wu,2010,2010,exp,bilateral arm training,1,0,93,4,y,,,4,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,1,0,1,1,0,1,1,0,0,0,0,6
+202,wu2010,wu,2010,2010,exp,distributed CIMT,1,0,108,4,y,,,4,2,1,2,5,1,5,3,1,3,21,156,93,30,1,,1,1,1,1,1,0,1,1,1,0,1,1,10
+203,wu2012,wu,2012,2012,ctrl,usual and customary care,1,1,216,0,,,,,2,1,2,5,1,5,3,1,3,21,30,30,30,1,,1,1,1,1,1,0,1,1,0,0,1,0,8
+203,wu2012,wu,2012,2012,exp,distributed CIMT,1,0,398,1,y,,y,5,2,1,2,5,1,5,3,1,3,21,156,93,30,1,,1,1,1,1,1,0,1,1,0,0,1,0,8
+203,wu2012,wu,2012,2012,exp,distributed CIMT with trunk restraint,1,0,74,0,y,,y,5,2,1,2,5,1,5,3,1,3,21,156,93,30,1,,1,1,1,1,1,0,1,1,0,0,1,0,8
+204,yang2005,yang,2005,2005,ctrl,conventional therapy,1,1,84,0,,,,,0.66,1,0.66,3,1,3,3,1,3,21,6,6,6,1,,1,1,0,1,1,0,1,1,0,0,0,0,6
+204,yang2005,yang,2005,2005,exp,CPT + additional backward walking,1,0,192,1,,,,,0.66,1,0.66,3,1,3,3,1,3,21,10.5,10.5,10.5,1,,1,1,1,1,1,0,1,1,1,0,0,0,8
+205,yang2006,yang,2006,2006,ctrl,no rehabilitation (chronic stage),1,0,0,0,,,,,0.5,1,0.5,3,1,3,4,1,4,28,0,0,0,1,,0,0,0,0,0,0,1,0,0,0,0,0,1
+205,yang2006,yang,2006,2006,exp,task oriented progessive resistance training,1,0,299,1,,,,,0.5,1,0.5,3,1,3,4,1,4,28,6,6,6,1,,1,1,1,1,1,1,1,1,1,0,1,1,11
+206,yang2008,yang,2008,2008,ctrl,treadmill training,1,0,151,0,,,,,0.33,1,0.33,3,1,3,3,1,3,21,3,3,3,1,,1,1,0,1,1,1,0,1,1,0,0,0,7
+206,yang2008,yang,2008,2008,exp,virtual reality treadmill training,1,0,186,0,,,,,0.33,1,0.33,3,1,3,3,1,3,21,3,3,3,1,,1,1,1,1,1,1,0,1,1,0,0,0,8
+207,yang2010,yang,2010,2010,ctrl,early intervention general exercise,1,0,35,0,,,,,0.9,1,0.9,3,1,3,4,1,4,28,10,10,10,1,,1,1,0,1,0,0,1,1,0,0,0,0,5
+207,yang2010,yang,2010,2010,ctrl,late intervention general exercise,1,0,35,0,,,,,0.9,1,0.9,3,1,3,4,1,4,28,10,10,10,1,,1,1,0,1,0,0,1,1,0,0,0,0,5
+207,yang2010,yang,2010,2010,exp,early intervention BWSTT,1,0,160,1,,,,,0.9,1,0.9,3,1,3,4,1,4,28,10,10,10,1,,1,1,1,0,1,0,1,1,1,0,0,0,7
+207,yang2010,yang,2010,2010,exp,late intervention BWSTT,1,0,160,1,,,,,0.9,1,0.9,3,1,3,4,1,4,28,10,10,10,1,,1,1,1,0,1,0,1,1,1,0,0,0,7
+208,yang2014,yang,2014,2014,ctrl,conventional rehabilitation up to the cross-over point,1,1,325,1,y,y,,,2,1,2,5,1,5,4,1,4,28,20,20,20,1,,1,1,0,0,0,0,1,1,0,0,0,0,4
+208,yang2014,yang,2014,2014,exp,conventional rehab + cycling training up to cross-over,1,0,325,1,y,y,,,2,1,2,5,1,5,4,1,4,28,30,30,30,1,,1,1,1,1,0,0,1,1,0,0,1,0,7
+209,yavuzer2006,yavuzer,2006,2006,ctrl,conventional therapy,1,1,157,0,y,y,y,5,2 to 5,0,,5,1,5,8,1,8,56,,,,1,,1,1,0,1,1,0,0,1,0,0,0,0,5
+209,yavuzer2006,yavuzer,2006,2006,exp,CPT + balance training,1,0,213,3,y,y,y,5,2 to 5,0,,5,1,5,8,1,8,56,,,,1,,1,1,1,1,1,0,0,1,1,0,0,0,7
+210,yavuzer2008,yavuzer,2008,2008,exp,CPT/OT plus game-based exercise,1,0,335,0,y,y,,3,2 to 5,0,,5,1,5,4,1,4,28,,,,1,,1,1,0,1,1,0,0,1,0,0,0,0,5
+210,yavuzer2008,yavuzer,2008,2008,ctrl,CPT and COT,1,1,335,0,y,y,y,3,2 to 5,0,,5,1,5,4,1,4,28,,,,1,,1,1,1,1,1,1,0,1,1,0,0,0,8
+211,yelnik2008,yelnik,2008,2008,ctrl,conventional neurodevelopmental therapy,1,1,41,1,,,,,,0,,5,1,5,4,1,4,28,,,,1,,1,1,1,1,0,0,1,1,1,0,1,1,9
+211,yelnik2008,yelnik,2008,2008,exp,multisensorial training,1,0,59,0,y,,,3,,0,,5,1,5,4,1,4,28,,,,1,,1,1,1,1,0,0,1,1,1,0,1,1,9
+212,yen2005,yen,2005,2005,ctrl,conventional PT/OT,1,1,87,1,y,y,,2,,0,,,0,,2,1,2,14,,,,,,1,1,0,1,0,0,0,1,0,0,0,0,4
+212,yen2005,yen,2005,2005,exp,modified CIMT,1,0,230,7,y,y,,2,6,1,6,,0,,2,1,2,14,,,,,,1,1,1,1,0,0,0,1,1,0,0,0,6
+213,yen2008,yen,2008,2008,ctrl,conventional general therapy,1,1,138,0,,,,,0.9,1,0.9,2 to 5,0,,4,1,4,28,8.1,8.1,8.1,1,,1,0,0,1,1,0,0,1,0,0,0,0,4
+213,yen2008,yen,2008,2008,exp,conventional therapy + BWSTT,1,0,324,4,y,,,3,0.5,1,0.5,3,1,3,4,1,4,28,14.1,14.1,14.1,1,,1,1,0,1,1,0,0,1,1,0,1,1,8
+214,you2005,you,2005,2005,ctrl,no intervention,1,0,0,0,,,,,,0,,,0,,4,1,4,28,0,0,0,1,,0,0,0,0,0,0,0,0,0,0,0,0,0
+214,you2005,you,2005,2005,exp,virtual reality therapy,1,0,340,3,,,,,1,1,1,5,1,5,4,1,4,28,20,20,20,1,,1,1,1,1,0,1,0,1,1,1,1,1,10
+215,young/young1991/1992,young/young,1991/1992,1991,exp,day hospital treatment,1,0,149,0,,,Y,3,,0,,,0,,8,1,8,56,,,,,,1,1,0,0,1,0,1,1,1,0,1,0,7
+215,young/young1991/1992,young/young,1991/1992,1991,exp,home physiotherapy treatment,1,0,155,1,,,Y,3,,0,,2,1,2,8,1,8,56,,,,,,1,1,0,0,1,1,1,1,1,0,1,0,8
