@@ -12,7 +12,7 @@ setwd("C:/Users/krl0022/Documents/GitHub/SCOAR/group_desc/")
 list.files()
 
 ## Description of Groups Data --------------------------------------------------
-GROUPS<-read.csv("./data_GROUPS.csv", header = TRUE)
+GROUPS<-read.csv("./data_GROUPS_protocols_added.csv", header = TRUE)
 head(GROUPS)
 GROUPS$exp.c<-(as.numeric(GROUPS$group)-1.5)
 CTRL<-subset(GROUPS, group=="ctrl")
@@ -230,7 +230,7 @@ g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"),
 plot(g3)
 ## -----------------------------------------------------------------------------
 
-
+## Table 3. --------------------------------------------------------------------
 ## Analysis of Individual TIDIER Criteria 
 # Brief Name
 head(TIDIER)
@@ -297,7 +297,7 @@ xtabs(modify~group, data=TIDIER)
 
 # How well planned
 m0<-glmer(planned~1+(1|id), family=binomial, data=TIDIER)
-m1<-glmer(planned~1+exp.c+(1|id), family=binomial, data=TIDIER)
+m1<-glmer(planned~1+(as.numeric(group)-1)+(1|id), family=binomial, data=TIDIER)
 summary(m1)
 xtabs(planned~group, data=TIDIER)
 
