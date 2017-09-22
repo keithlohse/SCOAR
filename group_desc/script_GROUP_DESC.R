@@ -1,4 +1,4 @@
-# By Keith Lohse, Rehabilitation Informatics Lab, 2016-11-17
+# By Keith Lohse, Neuroehabilitation Informatics Lab, 2017-08-28
 
 # For this analysis, you will need to install and then open the following packages:
 # install.packages("metafor"); install.packages("dplyr"); install.packages("ggplot2")
@@ -8,7 +8,7 @@ library("lmerTest")
 ##----------------------- Results 1.0 ------------------------------------------
 ## Setting the Directory -------------------------------------------------------
 getwd()
-setwd("C:/Users/krl0022/Documents/GitHub/SCOAR/group_desc/") 
+setwd("C:/Users/u6015231/Documents/GitHub/SCOAR/group_desc/") 
 list.files()
 
 ## Description of Groups Data --------------------------------------------------
@@ -115,12 +115,16 @@ sd(WORD$word_count[WORD$group=="ctrl"], na.rm=TRUE)
 
 # Figure 1A --------------------------------------------------------------------
 g1<-ggplot(WORD, aes(x = group, y = word_count, bg=group)) +
-    geom_jitter(alpha = .5, width= 0.25) + geom_boxplot(alpha = .75, notch=TRUE)
+    geom_jitter(alpha = .8, width= 0.25) + geom_boxplot(alpha = .9, notch=TRUE,
+                                                        fill=c("grey40","white"),
+                                                        col="black",
+                                                        outlier.shape=NA,
+                                                        lwd=0.8)
 g2<-g1+scale_x_discrete(name = "Group Type") +
     scale_y_continuous(name = "Word Count in Methods")
 g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
                  axis.title=element_text(size=16,face="bold")) + 
-    theme(legend.text=element_text(size=16), legend.title=element_text(size=16))
+    theme(legend.position="none")
 plot(g3) 
 ## -----------------------------------------------------------------------------
 
@@ -142,13 +146,16 @@ sd(REF$ref_count[REF$group=="ctrl"], na.rm=TRUE)
 
 # Figure 1B --------------------------------------------------------------------
 g1<-ggplot(REF, aes(x = group, y = ref_count, bg=group)) +
-    geom_jitter(alpha = 0.5, width=0.25) + geom_boxplot(alpha = .75, notch=TRUE)
+    geom_jitter(alpha = .8, width= 0.25) + geom_boxplot(alpha = .9, notch=TRUE,
+                                                        fill=c("grey40","white"),
+                                                        col="black",
+                                                        outlier.shape=NA,
+                                                        lwd=0.8)
 g2<-g1+scale_x_discrete(name = "Group Type") +
     scale_y_continuous(name = "Reference Count in Methods", limits=c(-1,20))
 g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
                  axis.title=element_text(size=16,face="bold")) +
-    theme(legend.text=element_text(size=16), legend.title=element_text(size=16))
-
+  theme(legend.position="none")
 plot(g3) 
 ## -----------------------------------------------------------------------------
 
@@ -172,12 +179,16 @@ sd(TIDIER$tidy_sum[TIDIER$group=="ctrl"], na.rm=TRUE)
 
 # Figure 1C --------------------------------------------------------------------
 g1<-ggplot(TIDIER, aes(x = group, y = tidy_sum, bg=group)) +
-    geom_jitter(alpha = 0.5, width=0.25) + geom_boxplot(alpha = .7, notch=TRUE)
+  geom_jitter(alpha = .8, width= 0.25) + geom_boxplot(alpha = .9, notch=TRUE,
+                                                      fill=c("grey40","white"),
+                                                      col="black",
+                                                      outlier.shape=NA,
+                                                      lwd=0.8)
 g2<-g1+scale_x_discrete(name = "Group Type") +
     scale_y_continuous(name = "Total TIDIER Score", limits=c(-1,12))
 g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
                  axis.title=element_text(size=16,face="bold")) +
-    theme(legend.text=element_text(size=16), legend.title=element_text(size=16))
+  theme(legend.position="none")
 
 plot(g3)    
 ## -----------------------------------------------------------------------------
@@ -188,7 +199,9 @@ summary(m2)
 
 ## Figure 2A
 g1<-ggplot(TIDIER, aes(x = year_ini, y = tidy_sum)) +
-    geom_jitter(aes(fill=group), size=3, pch=21, alpha=0.7, width=0.25)
+  geom_jitter(aes(fill=group), size=3, pch=21, alpha=0.7, width=0.15, stroke=1.5) +
+  scale_fill_manual(values=c("grey40", "white"))+
+  stat_smooth(method=lm,se=TRUE, col="black", lwd=1.5)
 g2<-g1+scale_x_continuous(name = "Year of Publication") +
     scale_y_continuous(name = "Total TIDIER Score", limits=c(-1,12))
 g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
@@ -220,7 +233,8 @@ summary(m4)
 
 # Figure 2B -------------------------------------------------------------------
 g1<-ggplot(TIDY_MERGE, aes(x = CTRL.tidy_sum, y = EXP.tidy_sum)) +
-    geom_jitter(size=3, alpha=0.7, width=0.25)+geom_abline(intercept = 6.582, slope = 0.121)
+    geom_jitter(size=3, alpha=0.7, width=0.15, stroke=1.5)+
+  stat_smooth(method="lm", se=TRUE, col="black", lwd=1.5)
 g2<-g1+scale_x_continuous(name = "CTRL TIDIER Score", limits=c(-1,12)) +
     scale_y_continuous(name = "EXP TIDIER Score", limits=c(-1,12))
 g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
@@ -229,6 +243,52 @@ g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"),
 
 plot(g3)
 ## -----------------------------------------------------------------------------
+
+## Association between TIDIER scores and Word/Reference Counts -----------------
+m5<-lmer(tidy_sum~1+exp.c+ref_count+(1|id), data=TIDIER, REML=FALSE)
+summary(m5)
+anova(m1,m5)
+
+m6<-lmer(tidy_sum~1+exp.c+word_count+(1|id), data=TIDIER, REML=FALSE)
+summary(m6)
+anova(m1,m6)
+
+# Predicting TIDIER with Reference counts
+g1<-ggplot(TIDIER, aes(x = ref_count, y = tidy_sum, fill=group)) +
+  geom_jitter(pch=21, size=2, alpha=0.7, width=0.15, stroke=1.25) +
+  facet_wrap(~group) +
+  stat_smooth(method="lm", col="black", fill="grey60", lwd=1.5) +
+  scale_fill_manual(values=c("grey40","white"))
+g2<-g1+scale_x_continuous(name = "Reference Count") +
+  scale_y_continuous(name = "Total TIDIER Score", limits=c(-1,12))
+g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
+                 axis.title=element_text(size=16,face="bold")) +
+  guides(fill=guide_legend(title="Group"))+
+  theme(strip.text.x = element_text(size = 16))+
+  theme(legend.text=element_text(size=16), legend.title=element_text(size=16))+
+  theme(legend.position = "none")
+
+plot(g3)
+
+# Predicting TIDIER with Word counts
+g1<-ggplot(TIDIER, aes(x = word_count, y = tidy_sum, fill=group)) +
+  geom_jitter(pch=21, size=2, alpha=0.7, width=0.15, stroke=1.25) +
+  facet_wrap(~group) +
+  stat_smooth(method="lm", col="black", fill="grey60", lwd=1.5) +
+  scale_fill_manual(values=c("grey40","white"))
+g2<-g1+scale_x_continuous(name = "Word Count") +
+  scale_y_continuous(name = "Total TIDIER Score", limits=c(-1,12))
+g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
+                 axis.title=element_text(size=16,face="bold")) +
+  guides(fill=guide_legend(title="Group"))+
+  theme(strip.text.x = element_text(size = 16))+
+  theme(legend.text=element_text(size=16), legend.title=element_text(size=16))+
+  theme(legend.position = "none")
+
+plot(g3)
+
+
+
 
 ## Table 3. --------------------------------------------------------------------
 ## Analysis of Individual TIDIER Criteria 
@@ -326,6 +386,80 @@ CPT_EXP<-subset(CPT, group=="exp")
 
 
 ## Table 4 ---------------------------------------------------------------------
+# Descriptive Statistics for "Conventional" Therapy Groups
+summary(CPT$PT_inc)
+summary(CPT$OT_inc)
+summary(CPT$ST_inc)
+
+# Frequency Data
+## Hours per day 
+mean(CPT$hpd, na.rm=TRUE)
+sd(CPT$hpd, na.rm=TRUE)
+min(CPT$hpd, na.rm=TRUE)
+max(CPT$hpd, na.rm=TRUE)
+sum(CPT$h_IS_NUM)
+# Missing cases
+length(CPT$hpd_STR[CPT$hpd_STR==""])
+summary(factor(CPT$hpd_STR))
+# Numeric NAs - missing cases yields ranges
+sum(is.na(CPT$hpd))-length(CPT$hpd_STR[CPT$hpd_STR==""])
+
+## Days per Week
+mean(CPT$dpw, na.rm=TRUE)
+sd(CPT$dpw, na.rm=TRUE)
+min(CPT$dpw, na.rm=TRUE)
+max(CPT$dpw, na.rm=TRUE)
+sum(CPT$d_IS_NUM)
+# Missing cases
+length(CPT$dpw_STR[CPT$dpw_STR==""])
+summary(factor(CPT$dpw_STR))
+# Numeric NAs - missing cases yields ranges
+sum(is.na(CPT$dpw))-length(CPT$dpw_STR[CPT$dpw_STR==""])
+
+## Duration of Therapy (in weeks)
+mean(CPT$ther_duration, na.rm=TRUE)
+sd(CPT$ther_duration, na.rm=TRUE)
+min(CPT$ther_duration, na.rm=TRUE)
+max(CPT$ther_duration, na.rm=TRUE)
+# Missing cases
+length(CPT$ther_duration[CPT$ther_duration==""])
+summary(factor(CPT$ther_duration))
+# Numeric NAs - missing cases yields ranges
+sum(is.na(CPT$ther_duration))-length(CPT$ther_duration[CPT$ther_duration==""])
+
+# Method of Reporting Dose of Therapy
+summary(as.factor(CPT$detailed_time))
+
+## Individual TIDIER Criteria 
+# Brief Name
+xtabs(name~group, data=CPT)
+# Why
+xtabs(why~group, data=CPT)
+# What Materials
+xtabs(materials~group, data=CPT)
+# What procedures
+xtabs(procedure~group, data=CPT)
+# Provided by whom
+xtabs(who~group, data=CPT)
+# How
+xtabs(how~group, data=CPT)
+# Where
+xtabs(where~group, data=CPT)
+# When and how much
+xtabs(how_much~group, data=CPT)
+# Tailoring
+xtabs(tailor~group, data=CPT)
+# Modifications
+xtabs(modify~group, data=CPT)
+# How well planned
+xtabs(planned~group, data=CPT)
+# How well actual
+xtabs(actual~group, data=CPT)
+
+
+
+
+## Old Table 4: Control and Experimental Groups Separately -------------------------------------
 summary(CPT$PT_inc[CPT$group=="exp"])
 summary(CPT$PT_inc[CPT$group=="ctrl"])
 summary(CPT$OT_inc[CPT$group=="exp"])
@@ -353,6 +487,7 @@ max(CPT_CTRL$hpd, na.rm=TRUE)
 sum(CPT_CTRL$h_IS_NUM)
 # Missing cases
 length(CPT_CTRL$hpd_STR[CTRL$hpd_STR==""])
+summary(CPT_CTRL$hpd_STR)
 # Numeric NAs - missing cases yields ranges
 sum(is.na(CPT_CTRL$hpd))-length(CPT_CTRL$hpd_STR[CPT_CTRL$hpd_STR==""])
 
@@ -403,29 +538,50 @@ summary(as.factor(CPT_EXP$detailed_time))
 summary(as.factor(CPT_CTRL$detailed_time))
 summary(as.factor(CPT$detailed_time))
 
-## Individual TIDIER Criteria 
-# Brief Name
-xtabs(name~group, data=CPT)
-# Why
-xtabs(why~group, data=CPT)
-# What Materials
-xtabs(materials~group, data=CPT)
-# What procedures
-xtabs(procedure~group, data=CPT)
-# Provided by whom
-xtabs(who~group, data=CPT)
-# How
-xtabs(how~group, data=CPT)
-# Where
-xtabs(where~group, data=CPT)
-# When and how much
-xtabs(how_much~group, data=CPT)
-# Tailoring
-xtabs(tailor~group, data=CPT)
-# Modifications
-xtabs(modify~group, data=CPT)
-# How well planned
-xtabs(planned~group, data=CPT)
-# How well actual
-xtabs(actual~group, data=CPT)
+
+
+
+## Risk of Bias Analyses: Appendix III -----------------------------------------
+head(GROUPS)
+# Creating one observation per study:
+by_Study<-summarize(group_by(GROUPS, index),
+                  id = id[1], 
+                  author = author[1],
+                  year_ini = year_ini[1],
+                  TIDIER_ave = mean(tidy_sum),
+                  PEDro = mean(PEDro_score))
+
+# Summary statistics for PEDro scale.
+summary(by_Study$PEDro)
+sd(by_Study$PEDro, na.rm=TRUE)
+
+summary(as.factor(by_Study$PEDro))
+
+# Is there a relationship between PEDro Scale and TIDIER Score
+m8<-lmer(tidy_sum~1+exp.c+PEDro_score+(1|id), data=TIDIER, REML=FALSE)
+summary(m8)
+
+m9<-lmer(word_count~1+exp.c+PEDro_score+(1|id), data=TIDIER, REML=FALSE)
+summary(m9)
+
+m10<-lmer(ref_count~1+exp.c+PEDro_score+(1|id), data=TIDIER, REML=FALSE)
+summary(m10)
+
+# Predicting TIDIER with PEDro Score
+g1<-ggplot(TIDIER, aes(x = PEDro_score, y = tidy_sum, fill=group)) +
+  geom_jitter(pch=21, size=2, alpha=0.7, width=0.15, stroke=1.25) +
+  facet_wrap(~group) +
+  stat_smooth(method="lm", col="black", fill="grey60", lwd=1.5) +
+  scale_fill_manual(values=c("grey40","white"))
+g2<-g1+scale_x_continuous(name = "PEDro Scale Score") +
+  scale_y_continuous(name = "Total TIDIER Score", limits=c(-1,12))
+g3 <- g2 + theme(axis.text=element_text(size=16, colour="black"), 
+                 axis.title=element_text(size=16,face="bold")) +
+  guides(fill=guide_legend(title="Group"))+
+  theme(strip.text.x = element_text(size = 16))+
+  theme(legend.text=element_text(size=16), legend.title=element_text(size=16))+
+  theme(legend.position = "none")
+
+plot(g3)
+
 
